@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casebook</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+        
+        <meta name="robots" content="noindex,nofollow">
+
+</head>
+
+<body class="hide">
+
+        <div class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" id="PasswordModal" role="document">
+                <div class="modal-content">
+                    <div class="modal-body text-white">
+                        <div class="landing-modal">
+                            <p class="text-center">
+                                This learning program is intended for <br> healthcare professionals only. 
+                            </p>
+                            <form action="#" class="d-flex flex-column mt-3 pt-1">
+                                <label class="mb-1" for="password">Password</label>
+                                <input id="password" type="password" value="1234">
+                                <label class="mb-1 d-none" id="bad-password">Bad password!</label>
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <header class="bg-white">
+        <div class="container d-flex justify-content-between align-items-center">
+            <div class="menu-icon d-md-none">
+                <img src="assets/images/icons/menu-open.svg" alt="">
+                <img src="assets/images/icons/menu-close.svg" alt="">
+            </div>
+            <a href="index.html" class="logo">
+                <img src="assets/images/logo.svg" alt="">
+            </a>
+            <p class="text-center text-pink text-bold d-md-block d-none">
+                <span class="d-block text-deeppink">
+                    casebook on Comorbidities in RA:
+                </span>
+                A Patient-focused Multidisciplinary Perspective
+            </p>
+            <div class="language d-flex align-items-center">
+                <a class="" href="index.html">
+                    <img class="me-2 d-none d-md-block" src="assets/images/icons/home.svg" alt="">
+                </a>
+                <a class="language-switcher" href="#">
+                    <span class="text-deeppink pt-0 pt-md-1 pt-lg-2">
+                        Fr
+                    </span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <section class="wrapper paitent-content">
+        <div class="container d-flex flex-wrap justify-content-between">
+            <div class="left-sidebar text-center">
+                <ul>
+                    <li>
+                        <a class="pink-button" href="case-studies.html">
+                            Case studies
+                        </a>
+                    </li>
+                    <li>
+                        <a class="pink-button knowledge-test" href="#">
+                            Knowledge tests
+                        </a>
+                    </li>
+                    <li>
+                        <a class="pink-button reference-button" href="#">
+                            References
+                        </a>
+                    </li>
+                    <li>
+                        <a class="pink-button" href="events.html">
+                            Events
+                        </a>
+                    </li>
+                    <li>
+                        <a class="pink-button" href="associations.html">
+                            Associations
+                        </a>
+                    </li>
+                    <li>
+                        <a class="pink-button" href="about-section.html">
+                            About Section 2/3 credit
+                        </a>
+                    </li>
+                    <li class="d-none d-md-block">
+                        <a class="pink-button" target="_blank" href="https://www.surveymonkey.com/r/RAcasebook">
+                            Evaluation form
+                            <span class="d-block mb-1">
+                                (for self-directed learning participants only)
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="middle-content">
+                <div class="row mb-4 pb-1">
+                    <div class="col-lg-3 col-sm-6">
+                        <a href="allison.html" class="person text-center text-black">
+                            <img src="assets/images/1.png" alt="">
+                            <p class="text-bold">
+                                Allison G.
+                            </p>
+                            <p class="text-deeppink text-12">
+                                53-year-old female with RA and risk factors for MACE
+                            </p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <a href="luciana.html" class="person text-center text-black">
+                            <img src="assets/images/2.png" alt="">
+                            <p class="text-bold">
+                                Luciana P.
+                            </p>
+                            <p class="text-deeppink text-12">
+                                56-year-old female with RA and metabolic syndrome
+                            </p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <a href="robert.html" class="person text-center text-black">
+                            <img src="assets/images/3.png" alt="">
+                            <p class="text-bold">
+                                Robert L.
+                            </p>
+                            <p class="text-deeppink text-12">
+                                56-year-old male with RA and history of malignancy
+                            </p>
+                        </a>
+                    </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <a href="caroline.html" class="active person text-center text-black">
+                            <img src="assets/images/4.png" alt="">
+                            <p class="text-bold">
+                                Caroline P.
+                            </p>
+                            <p class="text-deeppink text-12">
+                                60-year-old female with RA and fibromyalgia
+                            </p>
+                        </a>
+                    </div>
+                </div>
+                <div class="box-item p-0 pb-4 profile-box">
+                    <div class="p-3 p-sm-4 pb-2">
+                        <div class="d-flex mb-4 align-items-center">
+                            <img src="assets/images/4.png" alt="">
+                            <div class="ms-2 ps-1">
+                                <h3 class="common-title">
+                                    Caroline P.
+                                </h3>
+                                <p class="text-14 text-deeppink">
+                                    60-year-old female with RA, fibromyalgia and osteoporosis
+                                </p>
+                            </div>
+                        </div>
+                        <p class="mb-2">
+                            Caroline is a 60-year-old female software engineer. She is 160 centimetres tall and weighs
+                            45 kilograms. Caroline is underweight, with a BMI of 17.6 kg/m<sup>2</sup>. Her BP is normal (recently
+                            taken and it was 125/80 mmHg). She has been diagnosed with a vitamin D deficiency, for which
+                            she is taking vitamin D supplements (2,000 IU/day). She has had fibromyalgia since she was
+                            23 years old. She often experiences fatigue, sleep difficulties, and irritable bowel
+                            syndrome. She takes analgesics as needed, and exercises regularly (walking and running).
+                            Menopause occurred at 48 years old. Caroline’s mother has had a hip fracture and her aunt
+                            has fibromyalgia. Caroline was recently diagnosed with osteoporosis. She is taking
+                            supplementary vitamin D, calcium and bisphosphonates. She was a smoker for 30 years until
+                            she quit last year, and frequently consumes alcohol (1-2 glasses of wine per day). Caroline
+                            is also taking antidepressants. She has had RA for four years and is being treated with MTX
+                            and a TNF inhibitor.
+                        </p>
+                    </div>
+                    <img src="assets/images/home/8.jpg" alt="">
+                </div>
+                <div class="box-item diff-1 profile-box">
+                    <h3 class="common-title text-deeppink mb-3 pb-1">
+                        Current RA management & level of control/severity
+                    </h3>
+                    <div class="d-flex mb-4 align-items-center">
+                        <img src="assets/images/4.png" alt="">
+                        <div class="ms-2 ps-1">
+                            <h3 class="common-title">
+                                Caroline P.
+                            </h3>
+                            <p class="text-14 text-deeppink">
+                                60-year-old female with RA, fibromyalgia and osteoporosis
+                            </p>
+                        </div>
+                    </div>
+                    <p class="text-italic mb-3 pb-lg-1">
+                        “I recently had a follow-up with my rheumatologist. In addition to taking my height, weight and
+                        blood pressure, she counted my tender and swollen joints and asked me to rate how my arthritis
+                        affects me on a scale of 0 to 10, and we completed a few other forms and tests. She counselled
+                        me last year to stop smoking and although it was tough, I did it. She said it could impact my RA
+                        outcomes (dampen the response to therapy) when she started my biologic last year, and my risk
+                        for a heart attack.”
+                    </p>
+                    <p class="mb-3">
+                        <strong>
+                            Her assessment was as follows:
+                        </strong>
+                    </p>
+                    <img src="assets/images/caroline/1.jpg" alt="">
+                    <p class="mt-3 pt-1">
+                        Caroline’s CDAI is 16.5, indicating moderate inflammatory activity. However, some of the score
+                        is due to her patient global which is undoubtedly high due to her fibromyalgia. Her
+                        rheumatologist has rated her disease activity as low. Her CRP level is low. Clinically she has
+                        low disease activity.
+                    </p>
+                </div>
+
+
+                <div class="box-item diff-1">
+                    <h3 class="common-title text-deeppink mb-3">
+                        Current osteoporosis/FM management and level of control/severity:
+                    </h3>
+                    <p class="text-bold mb-3">
+                        Severe osteoporosis and lab workup
+                    </p>
+                    <p class="mb-3">
+                        Caroline’s pain due to fibromyalgia is often 6/10. Her recent bone mineral density scan showed
+                        osteoporosis at the level of the lumbosacral spine with a T score of -2.8.
+                    </p>
+                    <div class="accordion-wrapper">
+                        <div class="accordion--items">
+                            <div class="accordion--item">
+                                <div class="accordion__title">
+                                    <div class="accordion__title__inner">
+                                        <h3>
+                                            What minimal workup should be done if a patient has osteoporosis according
+                                            to BMD?
+                                        </h3>
+                                        <img src="assets/images/icons/accordion-title.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="accordion__content" style="height: 0px;">
+                                    <div class="accordion__content__inner pt-3">
+                                        <p class="mb-3">
+                                            Caroline’s CBC and ALT are routinely done for MTX monitoring and are normal.
+                                        </p>
+                                        <p class="mb-3">                                          
+                                            
+                                            Laboratory tests should be done for vitamin D and calcium, parathyroid
+                                            hormone (PTH) and TSH, tissue transglutaminase (TTG) and IgA, creatinine. In
+                                            other words, this is a work-up for treatable secondary causes of OP
+                                            (hyperparathyroidism, hyperthyroidism, abnormal calcium or vitamin D, renal
+                                            dystrophy, reduced calcium absorption as seen in Crohn’s and celiac
+                                            disease).
+
+                                        </p>
+                                        <p>
+                                            In general, a work-up is done according to the likelihood of a secondary
+                                            cause for OP. Caroline is thin, had slightly early menopause, drinks alcohol
+                                            regularly and has a family history of OP, so it is likely she has
+                                            postmenopausal OP. RA is a minor risk for OP.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-item diff-1">
+                    <h3 class="text-deeppink common-title mb-3">
+                        RA treatment in patients with osteoporosis/fibromyalgia
+                    </h3>
+                    <p class="mb-3">
+                        What is the impact of osteoporosis/fibromyalgia on RA treatment decisions?
+                    </p>
+                    <p class="mb-3">
+                        High activity RA is associated with osteoporosis due to increased systemic inflammation.
+                    </p>
+                    <ul class="radio-options mt-3 bg-lightgray">
+                        <li class="d-flex align-items-center right">
+                            <input type="radio" id="radio-1" name="question-1" class="me-1">
+                            <label for="radio-1">
+                                True
+                            </label>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <input type="radio" id="radio-2" name="question-1" class="me-1">
+                            <label for="radio-2">
+                                False
+                            </label>
+                        </li>
+                    </ul>
+                    <div class="text-center mt-4 submit-button-wrapper">
+                        <a href="#" class="pink-button">
+                            Submit
+                        </a>
+                    </div>
+                    <div class="answer mt-4 d-none">
+                        <p class="text-bold">
+                            True
+                        </p>
+                        <p class="mb-3">
+                            RA is associated with reduced mobility and physical activity. This contributes to a decrease
+                            in muscle mass, resulting in sarcopenia, which leads to osteopororsis.<sup>1</sup> Active RA
+                            is associated with increased bone loss and osteoporosis.<sup>2,3</sup> This association is
+                            due
+                            to systemic inflammation, circulating autoantibodies, and pro-inflammatory
+                            cytokines.<sup>4</sup> Use of
+                            glucocorticoids can increase bone loss. Treating active inflammation from RA such as with a
+                            TNFi may improve bone density slightly by suppressing systemic inflammation.<sup>5</sup>
+                        </p>
+                        <p>
+                            Patients with fibromyalgic RA have greater pain, higher disease activity scores due to high
+                            pain/patient global scores, more tender joints than swollen joints, and poorer mental
+                            health.<sup>6,7,8</sup> Rheumatologists must determine whether a high CDAI or other
+                            disease activity
+                            score is due to fibromyalgia or RA. Usually, a joint count is sufficient where the
+                            difference between swollen joints (none or very few) and tender joints (many) may be large.
+                            Musculoskeletal ultrasound may provide a useful, non-invasive tool to distinguish between
+                            inflammation due to RA and high disease activity due to fibromyalgia, but is usually not
+                            needed (only when on joint examination one cannot assess accurately if joints are swollen,
+                            for example in an obese patient).<sup>9</sup> Remission on a composite score, and often low
+                            disease
+                            activity, will not occur if a patient’s global rating is always poor (rating high disease
+                            activity). Studies have reported that RA patients with fibromyalgia frequently do not reach
+                            remission due to patient-reported factors.<sup>10,11</sup>
+                        </p>
+                    </div>
+                </div>
+                <div class="box-item diff-1">
+                    <h3 class="text-deeppink common-title mb-3">
+                        Other risk factors/exacerbating factors for osteoporosis/FM
+                    </h3>
+                    <p class="mb-3">
+                        Which of the following is NOT a risk factor or exacerbating factor for fibromyalgia?
+                    </p>
+                    <ul class="radio-options mt-3 bg-lightgray">
+                        <li class="d-flex align-items-center">
+                            <input type="radio" id="radio-3" name="question-2" class="me-1">
+                            <label for="radio-3">
+                                RA
+                            </label>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <input type="radio" id="radio-4" name="question-2" class="me-1">
+                            <label for="radio-4">
+                                Past abuse
+                            </label>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <input type="radio" id="radio-5" name="question-2" class="me-1">
+                            <label for="radio-5">
+                                Back pain
+                            </label>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <input type="radio" id="radio-6" name="question-2" class="me-1">
+                            <label for="radio-6">
+                               PTSD
+                            </label>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <input type="radio" id="radio-7" name="question-2" class="me-1">
+                            <label for="radio-7">
+                                Work stress
+                            </label>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <input type="radio" id="radio-8" name="question-2" class="me-1">
+                            <label for="radio-8">
+                                Depression
+                            </label>
+                        </li>
+                        <li class="d-flex align-items-center right">
+                            <input type="radio" id="radio-9" name="question-2" class="me-1">
+                            <label for="radio-9">
+                                none of the above
+                            </label>
+                        </li>
+                    </ul>
+                    <div class="text-center mt-4 submit-button-wrapper">
+                        <a href="#" class="pink-button">
+                            Submit
+                        </a>
+                    </div>
+                    <div class="answer mt-4 d-none">
+
+                        <p class="text-bold">
+                            Osteoporosis
+                        </p>
+                        <p class="mb-3">
+                            Patients with RA are at a higher risk of osteoporosis. Increased RA disease activity is
+                            associated with bone loss. Patients may have double the occurrence of hip and vertebral
+                            fractures compared to age-matched healthy controls.<sup>12</sup> Additionally, patients with
+                            celiac
+                            disease, liver or renal disease and severe weight loss are also at risk of osteoporosis.
+                            Patients who use corticosteroids to treat rheumatoid arthritis are at a higher risk of
+                            osteoporosis. Excessive alcohol consumption is a risk for OP.
+                        </p>
+
+                        <p class="text-bold">
+                            Fibromyalgia
+                        </p>
+                        <p>
+                            Individuals are more likely to develop fibromyalgia if they have RA. Females are at an
+                            increased risk of fibromyalgia; between 80% and 90% of patients diagnosed with fibromyalgia
+                            are females.<sup>13</sup> Pain conditions, back pain, past abuse, PTSD, and past depression are also
+                            risk factors for fibromyalgia.<sup>13</sup> Patients with a chronic painful condition are at
+                            higher
+                            risks of being diagnosed with fibromyalgia. In early RA, the incidence of fibromyalgia is 5
+                            to 10 times more than the matched general population due to the development of a chronic
+                            painful condition which can cause poor mood, poor sleep, fatigue and fear (of a new
+                            diagnosis, possible job loss, loss of health, and possibly due to changes in the brain from
+                            chronic pain and inflammation).<sup>14</sup>
+                        </p>
+
+                    </div>
+                </div>
+                <div class="box-item diff-1 diff-3">
+                    <h3 class="common-title text-deeppink mb-3">
+                        Communication between specialists
+                    </h3>
+                    <p class="mb-2 pb-2">
+                        What messages would rheumatologists like to communicate to primary care physicians about the
+                        management of RA patients with comorbid osteoporosis/fibromyalgia? How can they best communicate
+                        their thoughts and plans?
+                    </p>
+                    <p class="mb-3">
+                        Click to see Dr. Pope’s answer.
+                    </p>
+                    <div class="position-relative mb-3 pb-1">
+                        <video controls src="assets/videos/demo.mp4"></video>
+                        <img src="assets/images/video/1.jpg" alt="">
+                        <a href="#"
+                            class="cursor-pointer position-absolute play-button  d-flex align-items-center justify-content-center">
+                            <img src="assets/images/icons/play-2.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="box-item knowledge-test-box diff-1 four">
+                    <div class="text-center">
+                        <img src="assets/images/knowledge.svg" alt="">
+                        <h3 class="common-title text-deeppink my-4 pt-1">
+                            Patients with RA and comorbid osteoporosis/FM
+                        </h3>
+                        <div class="text-deeppink">
+                            <span class="current-number">
+                                1
+                            </span>
+                            /
+                            <span class="total-number">
+                                7
+                            </span>
+                        </div>
+                    </div>
+                    <div class="knowledge-test-questions">
+                        <div class="knowledge-test-question active-item">
+                            <p class="mt-3">
+                                Active RA is associated with increased bone loss and osteoporosis due to:
+                            </p>
+                            <ul class="radio-options mt-3 bg-lightgray">
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-0" name="q-1" class="me-1">
+                                    <label for="radio-0">
+                                       a. Systemic inflammation
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-10" name="q-1" class="me-1">
+                                    <label for="radio-10">
+                                       b. Circulating autoantibodies
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-11" name="q-1" class="me-1">
+                                    <label for="radio-11">
+                                       c. Pro-inflammatory cytokines
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-12" name="q-1" class="me-1">
+                                    <label for="radio-12">
+                                       d. All of the above
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-13" name="q-1" class="me-1">
+                                    <label for="radio-13">
+                                       e. only a and c above
+                                    </label>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="knowledge-test-question">
+                            <p class="mt-3">
+                                Which of these patients typically have higher CDAI and patient global scores?
+                            </p>
+                            <ul class="radio-options mt-3 bg-lightgray">
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-14" name="q-2" class="me-1">
+                                    <label for="radio-14">
+                                        Patients with osteoporosis
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-15" name="q-2" class="me-1">
+                                    <label for="radio-15">
+                                        Patients with fibromyalgia
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-16" name="q-2" class="me-1">
+                                    <label for="radio-16">
+                                        These two groups typically have the same scores
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="knowledge-test-question">
+                            <p class="mt-3">
+                                Which of the following is NOT a risk factor for fibromyalgia?
+                            </p>
+                            <ul class="radio-options mt-3 bg-lightgray">
+
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-17" name="q-3" class="me-1">
+                                    <label for="radio-17">
+                                       a. Female sex
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-18" name="q-3" class="me-1">
+                                    <label for="radio-18">
+                                       b. PTSD
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-19" name="q-3" class="me-1">
+                                    <label for="radio-19">
+                                       c. Low BMI
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-20" name="q-3" class="me-1">
+                                    <label for="radio-20">
+                                       d. Depression
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-21" name="q-3" class="me-1">
+                                    <label for="radio-21">
+                                       e. all of the above
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-22" name="q-3" class="me-1">
+                                    <label for="radio-22">
+                                       f. only a, b and d above
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="knowledge-test-question">
+                            <p class="mt-3">
+                                Pain and patient global score are strongly related.
+                            </p>
+                            <ul class="radio-options mt-3 bg-lightgray">
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-23" name="q-4" class="me-1">
+                                    <label for="radio-23">
+                                        True
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-24" name="q-4" class="me-1">
+                                    <label for="radio-24">
+                                        False
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="knowledge-test-question">
+                            <p class="mt-3">
+                                Musculoskeletal ultrasound may be a useful, non-invasive tool in patients with
+                                fibromyalgia where there is uncertainty about joint activity/swelling in order to:
+                            </p>
+                            <ul class="radio-options mt-3 bg-lightgray">
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-25" name="q-5" class="me-1">
+                                    <label for="radio-25">
+                                        Determine CV risk
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-26" name="q-5" class="me-1">
+                                    <label for="radio-26">
+                                        Examine plaque build-up
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-27" name="q-5" class="me-1">
+                                    <label for="radio-27">
+                                        Distinguish between inflammation due to RA and high disease activity due to
+                                        fibromyalgia
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="knowledge-test-question">
+                            <p class="mt-3">
+                                CDAI scores are more likely to be overestimated in:
+                            </p>
+                            <ul class="radio-options mt-3 bg-lightgray">
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-28" name="q-6" class="me-1">
+                                    <label for="radio-28">
+                                        Patients with osteoporosis
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-29" name="q-6" class="me-1">
+                                    <label for="radio-29">
+
+                                        Patients with fibromyalgia
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="knowledge-test-question">
+                            <p class="mt-3">
+                                RA remission rates using composite scores are lower in:
+                            </p>
+                            <ul class="radio-options mt-3 bg-lightgray">
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-30" name="q-7" class="me-1">
+                                    <label for="radio-30">
+                                        Patients who have fibromyalgia
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-31" name="q-7" class="me-1">
+                                    <label for="radio-31">
+                                        Patients who have osteoporosis
+                                    </label>
+                                </li>
+                                <li class="d-flex align-items-center">
+                                    <input type="radio" id="radio-32" name="q-7" class="me-1">
+                                    <label for="radio-32">
+                                        Both
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="text-center mt-3 next-and-submit">
+                        <a href="#" class="pink-button">Next</a>
+                    </div>
+                </div>
+                <div id="references" class="box-item diff-1 references">
+                    <h3 class="common-title text-deeppink mb-3">
+                        References (RA, fibromyalgia and osteoporosis):
+                    </h3>
+                    <p class="mb-2">1. Sinigaglia L, Nervetti A, Mela Q, <i>et al</i>. A multicenter cross sectional study on
+                        bone mineral density in rheumatoid arthritis. Italian Study Group on Bone Mass in Rheumatoid
+                        Arthritis. J Rheumatol 2000; 27(11):2582-9.</p>
+                    <p class="mb-2">2. van Staa TP, Geusens P, Bijlsma JW, <i>et al</i>. Clinical assessment of the long-term
+                        risk of fracture in patients with rheumatoid arthritis. Arthritis Rheum 2006; 54(10):3104-12.
+                    </p>
+                    <p class="mb-2">3. Güler-Yüksel M, Bijsterbosch J, Goekoop-Ruiterman YP, <i>et al</i>. Changes in bone
+                        mineral density in patients with recent onset, active rheumatoid arthritis. Ann Rheum Dis 2008;
+                        67(6):823-8.</p>
+                    <p class="mb-2">4. Adami G, Saag KG. Osteoporosis Pathophysiology, Epidemiology, and Screening in
+                        Rheumatoid Arthritis. Curr Rheumatol Rep 2019; 21(7):34. </p>
+                    <p class="mb-2">5. Siu S, Haraoui B, Bissonnette R, <i>et al</i>. A meta-analysis of tumor necrosis factor
+                        inhibitors and glucocorticoids on bone density in rheumatoid arthritis and ankylosing
+                        spondylitis trials. Arthritis Care Res (Hoboken) 2015; 67(6):754-64.</p>
+                    <p class="mb-2">6. Haliloglu S, Carlioglu A, Akdeniz D, <i>et al</i>. Fibromyalgia in patients with other
+                        rheumatic diseases: prevalence and relationship with disease activity. Rheumatol Int 2014;
+                        34:1275-80.</p>
+                    <p class="mb-2">7. Duffield SJ, Miller N, Zhao S, <i>et al</i>. Concomitant fibromyalgia complicating
+                        chronic inflammatory arthritis: a systematic review and meta-analysis. Rheumatology (Oxford)
+                        2018; 57(8):1453-60. </p>
+                    <p class="mb-2">8. Zhao SS, Duffield SJ, Goodson NJ. The prevalence and impact of comorbid
+                        fibromyalgia in inflammatory arthritis. Best Pract Res Clin Rheumatol 2019; 33(3):101423. </p>
+                    <p class="mb-2">9. Davies P, Kennedy J, Nair J, <i>et al</i>. O34 Cost-effectiveness of a clinical nurse
+                        specialist performing targeted musculoskeletal ultrasound in the rheumatology clinic.
+                        Rheumatology 2018; 57(suppl 3):key075.216.</p>
+                    <p class="mb-2">10. Salaffi F, Di Carlo M, Farah S, <i>et al</i>. Prevalence of frailty and its associated
+                        factors in patients with rheumatoid arthritis: a cross-sectional analysis. Clin Rheumatol 2019;
+                        38(7):1823-30.</p>
+                    <p class="mb-2">11. Durán J, Combe B, Niu J, <i>et al</i>. The effect on treatment response of fibromyalgic
+                        symptoms in early rheumatoid arthritis patients: results from the ESPOIR cohort. Rheumatology
+                        2015; 54:2166-70. </p>
+                    <p class="mb-2">12. van Staa TP, Geusens P, Bijlsma JW, <i>et al</i>. Clinical assessment of the long-term
+                        risk of fracture in patients with rheumatoid arthritis. Arthritis Rheum 2006; 54(10):3104-12.
+                    </p>
+                    <p class="mb-2">13. Arthritis Society. What are the risk factors for FM? Available at:
+                        https://arthritis.ca/about-arthritis/arthritis-types-(a-z)/types/fibromyalgia. Accessed March
+                        2022.</p>
+                    <p class="mb-2">14. Lee YC, Lu B, Boire G, <i>et al</i>. Incidence and predictors of secondary fibromyalgia
+                        in an early arthritis cohort. Ann Rheum Dis 2013; 72(6):949-54.</p>
+                    <p class="mb-2">15. García-Leiva JM, Carrasco JL, Slim M, <i>et al</i>. Celiac symptoms in patients with
+                        fibromyalgia: a cross-sectional study. Rheumatol Int 2015; 35(3):561-7. </p>
+                </div>
+
+            </div>
+            <div class="right-sidebar">
+                <div class="box-item">
+                    <div class="rs-content">
+                        <h3 class="text-deeppink border-bottom mb-3">
+                            Caroline at a glance
+                        </h3>
+                        <div class="rs-list mb-3">
+                            <h4 class="text-bold">
+                                Physical exam
+                            </h4>
+                            <ul class="bullet-point">
+                                <li>Height 160 cm</li>
+                                <li>Weight 45 kg (BMI 17.6 kg/m<sup>2</sup>)</li>
+                                <li>BP 125/80 mmHg</li>
+                            </ul>
+                        </div>
+                        <div class="rs-list mb-3">
+                            <h4 class="text-bold">
+                                Pertinent medical history
+
+                            </h4>
+                            <ul class="bullet-point">
+
+                                <li>RA for 4 years, stable on MTX + TNFi</li>
+                                <li>Underweight</li>
+                                <li>Vitamin D deficiency</li>
+                                <li>Fibromyalgia and osteoporosis</li>
+                                <li>
+                                    Fatigue, sleep difficulties, gastrointestinal
+                                    problems (IBS)
+                                </li>
+                                <li>Menopause at 48 years of age</li>
+                                <li>
+                                    Mother had hip fracture; aunt has
+                                    fibromyalgia
+                                </li>
+
+                            </ul>
+                        </div>
+
+
+                        <div class="rs-list mb-3">
+                            <h4 class="text-bold">
+                                Other pertinent history
+                            </h4>
+                            <ul class="bullet-point">
+                                <li>
+                                    Past smoker (30 years)
+                                </li>
+                                <li>
+                                    Frequent alcohol consumption
+                                    (1-2 glasses of wine per day)
+                                </li>
+                                <li>
+                                    Some physical activity (walking and
+                                    running)
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="rs-list mb-3">
+                            <h4 class="text-bold">
+                                Current medications
+                            </h4>
+                            <ul class="bullet-point">
+                                <li>
+                                    Antidepressants
+                                </li>
+                                <li>
+                                    Analgesics for fibromyalgia flares
+                                </li>
+                                <li>
+                                    MTX + TNFi
+                                </li>
+                                <li>
+                                    Vitamin D supplements (2000 IU/day)
+                                </li>
+                                <li>
+                                    Calcium 1 g/day and bisphosphonates
+                                    (risedronate 150 mg once a month)
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p class="text-white">
+                Copyright 2022. This learning program is supported by Pfizer Canada. The faculty had full editorial
+                control over the contents of the program. The contents of the program are aligned with the approved
+                Canadian product monographs. Opinions expressed are those of the presenters and not necessarily Pfizer
+                Canada. This program is intended for healthcare professionals only.
+            </p>
+        </div>
+    </footer>
+
+
+
+    <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/index.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Casebook</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <meta name="robots" content="noindex,nofollow">
+
+    </head>
+
+    <body class="hide">
+
+
+        <div class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" id="PasswordModal" role="document">
+                <div class="modal-content">
+                    <div class="modal-body text-white">
+                        <div class="landing-modal">
+                            <p class="text-center">
+                                This learning program is intended for <br> healthcare professionals only. 
+                            </p>
+                            <form action="#" class="d-flex flex-column mt-3 pt-1">
+                                <label class="mb-1" for="password">Password</label>
+                                <input id="password" type="password" value="1234">
+                                <label class="mb-1 d-none" id="bad-password">Bad password!</label>
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <header class="bg-white">
+            <div class="container d-flex justify-content-between align-items-center">
+
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.svg" alt="">
+                </a>
+                <p class="text-center text-pink text-bold d-md-block d-none">
+                    <span class="d-block text-deeppink">
+                        casebook on Comorbidities in RA:
+                    </span>
+                    A Patient-focused Multidisciplinary Perspective
+                </p>
+                <div class="language d-flex align-items-center">
+                    <a class="" href="index.html">
+                        <img class="me-2 d-none d-md-block" src="assets/images/icons/home.svg" alt="">
+                    </a>
+                    <a class="language-switcher" href="#">
+                    <span class="text-deeppink pt-0 pt-md-1 pt-lg-2">
+                        Fr
+                    </span>
+                </a>
+                </div>
+            </div>
+        </header>
+        <section class="wrapper landing-content mb-5 pb-5">
+            <div class="container d-flex flex-wrap justify-content-between">
+                <div class="left-sidebar text-center">
+                    <ul>
+                        <li>
+                            <a class="pink-button" href="case-studies.html">
+                                Case studies
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="knowledge-test.html">
+                                Knowledge tests
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button reference-button" href="references.html">
+                                References
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="events.html">
+                                Events
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="associations.html">
+                                Associations
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="about-section.html">
+                                About Section 2/3 credit
+                            </a>
+                        </li>
+                        <li class="d-none d-md-block">
+                            <a class="pink-button" target="_blank" href="https://www.surveymonkey.com/r/RAcasebook">
+                                Evaluation form
+                                <span class="d-block mb-1">
+                                    (for self-directed learning participants only)
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="middle-content">
+                    <div class="box-item knowledge-test-box diff-1 one mb-4">
+                        <div class="text-center">
+                            <img src="assets/images/knowledge.svg" alt="">
+                            <h3 class="common-title text-deeppink my-4 pt-1">
+                                Patients with RA at risk for MACE
+                            </h3>
+                            <div class="text-deeppink">
+                                <span class="current-number">
+                                    1
+                                </span>
+                                /
+                                <span class="total-number">
+                                    9
+                                </span>
+                            </div>
+                        </div>
+                        <div class="knowledge-test-questions">
+                            <div class="knowledge-test-question active-item">
+                                <p class="mt-3">
+                                    Patients with RA at a high risk of MACE should be screened for CV risk factors early and
+                                    over time.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-23" name="q-1" class="me-1">
+                                        <label for="radio-23">
+                                            True
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-24" name="q-1" class="me-1">
+                                        <label for="radio-24">
+                                            False
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    In patients with CV comorbidities, treatment of RA should focus on:
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-25" name="q-2" class="me-1">
+                                        <label for="radio-25">
+                                            Remission
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-26" name="q-2" class="me-1">
+                                        <label for="radio-26">
+                                            Early control of disease activity and remission
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-27" name="q-2" class="me-1">
+                                        <label for="radio-27">
+                                            Reducing obesity
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-28" name="q-2" class="me-1">
+                                        <label for="radio-28">
+                                            Early control only
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    In terms of treatment targets, a patient with RA with MACE risk factor should be
+                                    treated:
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-29" name="q-3" class="me-1">
+                                        <label for="radio-29">
+                                            as a patient with type I diabetes
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-30" name="q-3" class="me-1">
+                                        <label for="radio-30">
+                                            as patient with type 2 diabetes
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-31" name="q-3" class="me-1">
+                                        <label for="radio-31">
+                                            the same as an RA patient without MACE risk factors
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-32" name="q-3" class="me-1">
+                                        <label for="radio-32">
+                                            according to the presence or absence of positive family history
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    What are the LDL-C and BP targets in patients with RA and MACE risk factors?
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-33" name="q-4" class="me-1">
+                                        <label for="radio-33">
+                                            &lt;3.5 mmol/L or 50% reduction; &lt;140/90 mmHg
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-34" name="q-4" class="me-1">
+                                        <label for="radio-34">
+                                            &lt;2.0 mmol/L or 50% reduction; &lt;130/80 mmHg
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-35" name="q-4" class="me-1">
+                                        <label for="radio-35"> 
+                                            &lt;4.3 mmol/L or 25% reduction; &lt;130/90 mmHg
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-36" name="q-4" class="me-1">
+                                        <label for="radio-36">
+                                            &lt;7 mmol/L or 25% reduction; current BP is good
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    What does Reynold’s risk score account for that the Framingham risk score does not?
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-37" name="q-5" class="me-1">
+                                        <label for="radio-37">
+                                            Family history
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-38" name="q-5" class="me-1">
+                                        <label for="radio-38">
+                                            Level of inflammation (hsCRP)
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-39" name="q-5" class="me-1">
+                                        <label for="radio-39">
+                                            Medical history
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-40" name="q-5" class="me-1">
+                                        <label for="radio-40">
+                                            Patient gender
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    According to EULAR, Framingham risk score should be multiplied by a factor of ___ for
+                                    most patients with RA.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-41" name="q-6" class="me-1">
+                                        <label for="radio-41">
+                                            1.5
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-42" name="q-6" class="me-1">
+                                        <label for="radio-42">
+                                            2.5
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-43" name="q-6" class="me-1">
+                                        <label for="radio-43">
+                                            3.0
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-44" name="q-6" class="me-1">
+                                        <label for="radio-44">
+                                            none of the above
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    Non-invasive tools that can be used to screen for CV risk in patients with RA include:
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-45" name="q-7" class="me-1">
+                                        <label for="radio-45">
+                                            a. X-ray
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-46" name="q-7" class="me-1">
+                                        <label for="radio-46">
+                                            b. Carotid ultrasonography
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-47" name="q-7" class="me-1">
+                                        <label for="radio-47">
+                                            c. Coronary CT
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-48" name="q-7" class="me-1">
+                                        <label for="radio-48">
+                                            d. all of the above
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-49" name="q-7" class="me-1">
+                                        <label for="radio-49">
+                                            e. only b and c above
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    Effective ways to improve BMI include:
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-50" name="q-8" class="me-1">
+                                        <label for="radio-50">
+                                            a. exercise
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-51" name="q-8" class="me-1">
+                                        <label for="radio-51">
+                                            b. low-carbohydrate diet
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-52" name="q-8" class="me-1">
+                                        <label for="radio-52">
+
+                                            c. use of traditional dMARDs
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-53" name="q-8" class="me-1">
+                                        <label for="radio-53">
+                                            d. all of the above
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-54" name="q-8" class="me-1">
+                                        <label for="radio-54">
+                                            e. only a and b
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    Smoking cessation may be associated with:
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-55" name="q-9" class="me-1">
+                                        <label for="radio-55">
+                                            decreased inflammatory activity and response to RA treatment.
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-56" name="q-9" class="me-1">
+                                        <label for="radio-56">
+                                            decreased inflammatory activity and increased response to RA treatment.
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-57" name="q-9" class="me-1">
+                                        <label for="radio-57">
+                                            increased inflammatory activity and response to RA treatment.
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-58" name="q-9" class="me-1">
+                                        <label for="radio-58">
+                                            increased inflammatory activity and decreased response to RA treatment.
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center mt-3 next-and-submit">
+                            <a href="#" class="pink-button">Next</a>
+                        </div>
+                    </div>
+                    <div class="box-item knowledge-test-box diff-1 two mb-4">
+                        <div class="text-center">
+                            <img src="assets/images/knowledge.svg" alt="">
+                            <h3 class="common-title text-deeppink my-4 pt-1">
+                                Patients with RA and/at risk for metabolic syndrome
+                            </h3>
+                            <div class="text-deeppink">
+                                <span class="current-number">
+                                    1
+                                </span>
+                                /
+                                <span class="total-number">
+                                    4
+                                </span>
+                            </div>
+                        </div>
+                        <div class="knowledge-test-questions">
+                            <div class="knowledge-test-question active-item">
+                                <p class="mt-3">
+                                    In patients with RA with fatty liver:
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-4" name="q-1" class="me-1">
+                                        <label for="radio-4">
+                                            MTX is safe to use, regardless of other factors
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-5" name="q-1" class="me-1">
+                                        <label for="radio-5">
+                                            MTX is not safe to use, regardless of other factors
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-6" name="q-1" class="me-1">
+                                        <label for="radio-6">
+                                            MTX is safe to use if F score is F2 or less
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-7" name="q-1" class="me-1">
+                                        <label for="radio-7">
+                                            MTX is safe to use if F score is F1 or less
+                                        </label>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    MTX dose should be ____________ in patients with moderate chronic renal failure.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-8" name="q-2" class="me-1">
+                                        <label for="radio-8">
+                                            Increased
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-9" name="q-2" class="me-1">
+                                        <label for="radio-9">
+                                            Prescribed as in any other patient
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-10" name="q-2" class="me-1">
+                                        <label for="radio-10">
+                                            Reduced
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-11" name="q-2" class="me-1">
+                                        <label for="radio-11">
+                                            Eliminated
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    Which of the following medications can be associated with a significant increase in
+                                    weight?
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-12" name="q-3" class="me-1">
+                                        <label for="radio-12">
+                                            a. MTX
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-13" name="q-3" class="me-1">
+                                        <label for="radio-13">
+                                            b. Prednisone
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-14" name="q-3" class="me-1">
+                                        <label for="radio-14">
+                                            c. Pregabalin
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-15" name="q-3" class="me-1">
+                                        <label for="radio-15">
+                                            d. Duloxetine
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-16" name="q-3" class="me-1">
+                                        <label for="radio-16">
+                                            e. all of the above
+
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-17" name="q-3" class="me-1">
+                                        <label for="radio-17">
+                                            f. only b, c and d above
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    Which of the following conditions increase the risk of MACE?
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-18" name="q-4" class="me-1">
+                                        <label for="radio-18">
+                                            a. Chronic renal failure
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-19" name="q-4" class="me-1">
+                                        <label for="radio-19">
+                                            b. Metabolic syndrome
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-20" name="q-4" class="me-1">
+                                        <label for="radio-20">
+                                            c. RA </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-21" name="q-4" class="me-1">
+                                        <label for="radio-21">
+                                            d. All of the above
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-22" name="q-4" class="me-1">
+                                        <label for="radio-22">
+                                            e. only b and c above
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center mt-3 next-and-submit">
+                            <a href="#" class="pink-button">Next</a>
+                        </div>
+                    </div>
+                    <div class="box-item knowledge-test-box diff-1 three mb-4">
+                        <div class="text-center">
+                            <img src="assets/images/knowledge.svg" alt="">
+                            <h3 class="common-title text-deeppink my-4 pt-1">
+                                Patients with RA with or at risk of malignancy
+                            </h3>
+                            <div class="text-deeppink">
+                                <span class="current-number">
+                                    1
+                                </span>
+                                /
+                                <span class="total-number">
+                                    6
+                                </span>
+                            </div>
+                        </div>
+                        <div class="knowledge-test-questions">
+                            <div class="knowledge-test-question active-item">
+                                <p class="mt-3">
+                                    What type of RA treatment is safe for patients currently undergoing chemotherapy and
+                                    experiencing RA flares, not taking immunosuppressive chemotherapy?
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-3" name="q-1" class="me-1">
+                                        <label for="radio-3">
+                                            a. csDMARDs
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-401" name="q-1" class="me-1">
+                                        <label for="radio-401">
+                                            b. bDMARDs
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-501" name="q-1" class="me-1">
+                                        <label for="radio-501">
+                                            c. both a and b above
+                                        </label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    TNFi and tocilizumab use was associated with ___________ in some studies.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-60" name="q-2" class="me-1">
+                                        <label for="radio-60">
+                                            a. Cardiovascular disease
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-70" name="q-2" class="me-1">
+                                        <label for="radio-70">
+                                            b. Non-melanoma skin cancer
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-80" name="q-2" class="me-1">
+                                        <label for="radio-80">
+                                            c. Diabetes
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-90" name="q-2" class="me-1">
+                                        <label for="radio-90">
+                                            d. Osteoporosis
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-100" name="q-2" class="me-1">
+                                        <label for="radio-100">
+                                            e. both a and b above
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-1111" name="q-2" class="me-1">
+                                        <label for="radio-1111">
+                                            f. none of the above
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    Which of the following medication(s) have been shown to be safe for use in patients with
+                                    history of malignancy?
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-120" name="q-3" class="me-1">
+                                        <label for="radio-120">
+                                            a. Rituximab
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-130" name="q-3" class="me-1">
+                                        <label for="radio-130">
+
+                                            b.  Abatacept
+
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-140" name="q-3" class="me-1">
+                                        <label for="radio-140">
+                                            c.  TNFi
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-150" name="q-3" class="me-1">
+                                        <label for="radio-150">
+
+                                            d. all of the above
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-160" name="q-3" class="me-1">
+                                        <label for="radio-160">
+
+                                            e. only a and b above
+
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    The most likely factor contributing to lung cancer risk in RA patients is smoking.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-170" name="q-4" class="me-1">
+                                        <label for="radio-170">
+                                            True
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-180" name="q-4" class="me-1">
+                                        <label for="radio-180">
+                                            False
+                                        </label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    MTX and other advanced therapies have been shown to slightly increase the risk of skin
+                                    cancer.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-190" name="q-5" class="me-1">
+                                        <label for="radio-190">
+                                            True
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-200" name="q-5" class="me-1">
+                                        <label for="radio-200">
+                                            False
+                                        </label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    All patients with RA should be screened for skin cancer.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-210" name="q-6" class="me-1">
+                                        <label for="radio-210">
+                                            True
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-220" name="q-6" class="me-1">
+                                        <label for="radio-220">
+                                            False
+                                        </label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center mt-3 next-and-submit">
+                            <a href="#" class="pink-button">Next</a>
+                        </div>
+                    </div>
+                    <div class="box-item knowledge-test-box diff-1 four">
+                        <div class="text-center">
+                            <img src="assets/images/knowledge.svg" alt="">
+                            <h3 class="common-title text-deeppink my-4 pt-1">
+                                Patients with RA and comorbid osteoporosis/FM
+                            </h3>
+                            <div class="text-deeppink">
+                                <span class="current-number">
+                                    1
+                                </span>
+                                /
+                                <span class="total-number">
+                                    7
+                                </span>
+                            </div>
+                        </div>
+                        <div class="knowledge-test-questions">
+                            <div class="knowledge-test-question active-item">
+                                <p class="mt-3">
+                                    Active RA is associated with increased bone loss and osteoporosis due to:
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-900" name="q-1" class="me-1">
+                                        <label for="radio-900">
+                                            a. Systemic inflammation
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-1020" name="q-1" class="me-1">
+                                        <label for="radio-1020">
+                                            b. Circulating autoantibodies
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-1120" name="q-1" class="me-1">
+                                        <label for="radio-1120">
+                                            c. Pro-inflammatory cytokines
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-1220" name="q-1" class="me-1">
+                                        <label for="radio-1220">
+                                            d. All of the above
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-1320" name="q-1" class="me-1">
+                                        <label for="radio-1320">
+                                            e. only a and c above
+                                        </label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    Which of these patients typically have higher CDAI and patient global scores?
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-1420" name="q-2" class="me-1">
+                                        <label for="radio-1420">
+                                            Patients with osteoporosis
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-1520" name="q-2" class="me-1">
+                                        <label for="radio-1520">
+                                            Patients with fibromyalgia
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-1620" name="q-2" class="me-1">
+                                        <label for="radio-1620">
+                                            These two groups typically have the same scores
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    Which of the following is NOT a risk factor for fibromyalgia?
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-1720" name="q-3" class="me-1">
+                                        <label for="radio-1720">
+                                            a. Female sex
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-1820" name="q-3" class="me-1">
+                                        <label for="radio-1820">
+                                            b. PTSD
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-1920" name="q-3" class="me-1">
+                                        <label for="radio-1920">
+                                            c. Low BMI
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-2020" name="q-3" class="me-1">
+                                        <label for="radio-2020">
+                                            d. Depression
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-2120" name="q-3" class="me-1">
+                                        <label for="radio-2120">
+                                            e. all of the above
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-2220" name="q-3" class="me-1">
+                                        <label for="radio-2220">
+                                            f. only a, b and d above
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    Pain and patient global score are strongly related.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-2320" name="q-4" class="me-1">
+                                        <label for="radio-2320">
+                                            True
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-2420" name="q-4" class="me-1">
+                                        <label for="radio-2420">
+                                            False
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    Musculoskeletal ultrasound may be a useful, non-invasive tool in patients with
+                                    fibromyalgia where there is uncertainty about joint activity/swelling in order to:
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-2520" name="q-5" class="me-1">
+                                        <label for="radio-2520">
+                                            Determine CV risk
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-2620" name="q-5" class="me-1">
+                                        <label for="radio-2620">
+                                            Examine plaque build-up
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-2720" name="q-5" class="me-1">
+                                        <label for="radio-2720">
+                                            Distinguish between inflammation due to RA and high disease activity due to
+                                            fibromyalgia
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    CDAI scores are more likely to be overestimated in:
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-2820" name="q-6" class="me-1">
+                                        <label for="radio-2820">
+                                            Patients with osteoporosis
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-2920" name="q-6" class="me-1">
+                                        <label for="radio-2920">
+
+                                            Patients with fibromyalgia
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    RA remission rates using composite scores are lower in:
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-3020" name="q-7" class="me-1">
+                                        <label for="radio-3020">
+                                            Patients who have fibromyalgia
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-3120" name="q-7" class="me-1">
+                                        <label for="radio-3120">
+                                            Patients who have osteoporosis
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-3220" name="q-7" class="me-1">
+                                        <label for="radio-3220">
+                                            Both
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center mt-3 next-and-submit">
+                            <a href="#" class="pink-button">Next</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-sidebar">
+
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p class="text-white">
+                    Copyright 2022. This learning program is supported by Pfizer Canada. The faculty had full editorial
+                    control over the contents of the program. The contents of the program are aligned with the approved
+                    Canadian product monographs. Opinions expressed are those of the presenters and not necessarily Pfizer
+                    Canada. This program is intended for healthcare professionals only.
+                </p>
+            </div>
+        </footer>
+
+
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/index.js"></script>
+    </body>
+
+</html>

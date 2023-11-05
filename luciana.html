@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Casebook</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <meta name="robots" content="noindex,nofollow">
+
+
+    </head>
+
+    <body class="hide">
+
+        <div class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" id="PasswordModal" role="document">
+                <div class="modal-content">
+                    <div class="modal-body text-white">
+                        <div class="landing-modal">
+                            <p class="text-center">
+                                This learning program is intended for <br> healthcare professionals only. 
+                            </p>
+                            <form action="#" class="d-flex flex-column mt-3 pt-1">
+                                <label class="mb-1" for="password">Password</label>
+                                <input id="password" type="password" value="1234">
+                                <label class="mb-1 d-none" id="bad-password">Bad password!</label>
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <header class="bg-white">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="menu-icon d-md-none">
+                    <img src="assets/images/icons/menu-open.svg" alt="">
+                    <img src="assets/images/icons/menu-close.svg" alt="">
+                </div>
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.svg" alt="">
+                </a>
+                <p class="text-center text-pink text-bold d-md-block d-none">
+                    <span class="d-block text-deeppink">
+                        casebook on Comorbidities in RA:
+                    </span>
+                    A Patient-focused Multidisciplinary Perspective
+                </p>
+                <div class="language d-flex align-items-center">
+                    <a class="" href="index.html">
+                        <img class="me-2 d-none d-md-block" src="assets/images/icons/home.svg" alt="">
+                    </a>
+                    <a class="language-switcher" href="#">
+                    <span class="text-deeppink pt-0 pt-md-1 pt-lg-2">
+                        Fr
+                    </span>
+                </a>
+                </div>
+            </div>
+        </header>
+        <section class="wrapper paitent-content">
+            <div class="container d-flex flex-wrap justify-content-between">
+                <div class="left-sidebar text-center">
+                    <ul>
+                        <li>
+                            <a class="pink-button" href="case-studies.html">
+                                Case studies
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button knowledge-test" href="#">
+                                Knowledge tests
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button reference-button" href="#">
+                                References
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="events.html">
+                                Events
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="associations.html">
+                                Associations
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="about-section.html">
+                                About Section 2/3 credit
+                            </a>
+                        </li>
+                        <li class="d-none d-md-block">
+                            <a class="pink-button" target="_blank" href="https://www.surveymonkey.com/r/RAcasebook">
+                                Evaluation form
+                                <span class="d-block mb-1">
+                                    (for self-directed learning participants only)
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="middle-content">
+                    <div class="row mb-4 pb-1">
+                        <div class="col-lg-3 col-sm-6">
+                            <a href="allison.html" class="person text-center text-black">
+                                <img src="assets/images/1.png" alt="">
+                                <p class="text-bold">
+                                    Allison G.
+                                </p>
+                                <p class="text-deeppink text-12">
+                                    53-year-old female with RA and risk factors for MACE
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <a href="luciana.html" class="active person text-center text-black">
+                                <img src="assets/images/2.png" alt="">
+                                <p class="text-bold">
+                                    Luciana P.
+                                </p>
+                                <p class="text-deeppink text-12">
+                                    56-year-old female with RA and metabolic syndrome
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <a href="robert.html" class="person text-center text-black">
+                                <img src="assets/images/3.png" alt="">
+                                <p class="text-bold">
+                                    Robert L.
+                                </p>
+                                <p class="text-deeppink text-12">
+                                    56-year-old male with RA and history of malignancy
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <a href="caroline.html" class="person text-center text-black">
+                                <img src="assets/images/4.png" alt="">
+                                <p class="text-bold">
+                                    Caroline P.
+                                </p>
+                                <p class="text-deeppink text-12">
+                                    60-year-old female with RA and fibromyalgia
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-item p-0 pb-4 profile-box">
+                        <div class="p-3 p-sm-4 pb-2">
+                            <div class="d-flex mb-4 align-items-center">
+                                <img src="assets/images/2.png" alt="">
+                                <div class="ms-2 ps-1">
+                                    <h3 class="common-title">
+                                        Luciana P.
+                                    </h3>
+                                    <p class="text-14 text-deeppink">
+                                        56-year-old female with RA and metabolic syndrome
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="mb-2">
+                                Luciana is a 56-year-old Hispanic female nurse. She is 158 centimetres tall and weighs 90
+                                kilograms. She is obese, with a BMI of 36.1 kg/m<sup>2</sup> and is in menopause. Due to her
+                                job
+                                requirements, Luciana does not get a chance to participate in regular physical activity. Her
+                                job involves a lot of standing, walking, and lifting patients. Luciana tries to cook and
+                                bring lunch to work, but she eats at the hospital cafeteria most of the time. She has a
+                                fatty liver, and her BP is typically measured at 135/90 mmHg. Luciana’s fasting glucose
+                                level is 6.0 mmol/L (borderline hyperglycemia). She has high triglycerides (1.8 mmol/L) and
+                                low HDL-C levels (1.0 mmol/L). Her creatinine is elevated at 135 µmol/L (normal = 100).
+                                Luciana was a heavy smoker but successfully quit one year ago. Her mother had type 2
+                                diabetes. Luciana is currently taking a statin and a diuretic, beta blocker and ACE
+                                inhibitor. She has had RA for six years and is being treated with methotrexate +
+                                hydroxychloroquine.
+                            </p>
+                        </div>
+                        <img src="assets/images/home/6.jpg" alt="">
+                    </div>
+                    <div class="box-item diff-1 profile-box">
+                        <h3 class="common-title text-deeppink mb-3 pb-1">
+                            Current RA management & level of control/severity
+                        </h3>
+                        <div class="d-flex mb-4 align-items-center">
+                            <img src="assets/images/2.png" alt="">
+                            <div class="ms-2 ps-1">
+                                <h3 class="common-title">
+                                    Luciana P.
+                                </h3>
+                                <p class="text-14 text-deeppink">
+                                    56-year-old female with RA and metabolic syndrome
+                                </p>
+                            </div>
+                        </div>
+                        <p class="text-italic mb-3 pb-lg-1">
+                            “I recently had a follow-up with my rheumatologist. He counted my tender and swollen joints and
+                            asked me to rate how my arthritis affects me on a scale of 0 to 10, and we completed a few other
+                            forms and tests.”
+                        </p>
+                        <p class="mb-3">
+                            <strong>
+                                His assessment was as follows:
+                            </strong>
+                        </p>
+                        <img src="assets/images/luciana/1.jpg" alt="">
+                        <p class="mt-3 pt-1">
+                            Luciana’s CDAI is 16.5, indicating moderate inflammatory activity. Her CRP level is slightly
+                            elevated.
+                        </p>
+                    </div>
+                    <div class="box-item diff-1">
+                        <h3 class="text-deeppink common-title mb-3">
+                            Current management approaches and control/severity of metabolic syndrome:
+                        </h3>
+                        <p class="text-bold mb-3">
+                            Considering MTX safety in patients with RA and fatty liver
+                        </p>
+                        <p class="mb-3">
+                            Considering Luciana has a fatty liver, is it safe to use MTX to treat rheumatoid arthritis in
+                            Luciana?
+                        </p>
+                        <ul class="radio-options mt-3 bg-lightgray">
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-1" name="question-1" class="me-1">
+                                <label for="radio-1">
+                                    Yes
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-2" name="question-1" class="me-1">
+                                <label for="radio-2">
+                                    No
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center right">
+                                <input type="radio" id="radio-3" name="question-1" class="me-1">
+                                <label for="radio-3">
+                                    Depends on more information needed
+                                </label>
+                            </li>
+                        </ul>
+                        <div class="text-center mt-4 submit-button-wrapper">
+                            <a href="#" class="pink-button">
+                                Submit
+                            </a>
+                        </div>
+                        <div class="answer mt-4 d-none">
+                            <p class="text-bold">
+                                Depends on more information needed
+                            </p>
+                            <p>
+                                In Luciana’s case, it is recommended that a non-invasive alternative to liver biopsy (i.e.,
+                                FibroScan<sup>®</sup>) be performed,<sup>1</sup> as patients with metabolic syndrome may
+                                experience
+                                significant
+                                liver fibrosis. If the fibrosis score is F2 (i.e., moderate liver scarring) or less, MTX can
+                                be used. However, MTX should be avoided in patients with fibrosis scores above
+                                F2.<sup>2</sup>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box-item diff-1">
+                        <h3 class="common-title text-deeppink mb-3">
+                            Effects of renal impairment and NASH on MTX
+                        </h3>
+                        <div class="accordion-wrapper">
+                            <div class="accordion--items">
+                                <div class="accordion--item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__title__inner">
+                                            <h3>
+                                                What is the effect of renal impairment and non-alcoholic steatohepatitis
+                                                (NASH) on MTX?
+                                            </h3>
+                                            <img src="assets/images/icons/accordion-title.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="accordion__content" style="height: 0px;">
+                                        <div class="accordion__content__inner pt-3">
+                                            <p>
+                                                Methotrexate dose should be reduced in patients with chronic renal failure,
+                                                and NSAIDs should be avoided. Approximately 90% of methotrexate is renally
+                                                excreted,<sup>3</sup> and any chronic renal dysfunction could delay the
+                                                elimination of
+                                                methotrexate. Accordingly, the prolonged presence of methotrexate in plasma
+                                                concentration can increase methotrexate-related toxicities.<sup>3</sup> One
+                                                study
+                                                recommended that the methotrexate dose be reduced by half if the glomerular
+                                                filtration rate is &lt;30 mL/min.<sup>4</sup> A FibroScan should be
+                                                performed in
+                                                patients
+                                                with NASH, and if the fibrosis score is F2 or less, methotrexate can be
+                                                used. Otherwise, methotrexate should be avoided. If GFR decreases then
+                                                MTX dose should be lowered.<sup>3</sup> </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-item diff-1">
+                        <h3 class="common-title text-deeppink mb-3">
+                            Alternative medications to MTX in patients with RA
+                        </h3>
+                        <div class="accordion-wrapper">
+                            <div class="accordion--items">
+                                <div class="accordion--item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__title__inner">
+                                            <h3>
+                                                If MTX should be avoided in a given patient, what should be used
+                                                alternatively?
+                                            </h3>
+                                            <img src="assets/images/icons/accordion-title.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="accordion__content" style="height: 0px;">
+                                        <div class="accordion__content__inner pt-3">
+                                            <p class="mb-3">
+                                                Alternatives to MTX include hydroxychloroquine (which this patient is taking
+                                                and on its own is likely too weak to improve her disease activity),
+                                                leflunomide and sulfasalazine.<sup>5</sup> In patients with end-stage renal
+                                                disease or
+                                                with impaired renal function, options include a TNF inhibitor such as the
+                                                monoclonal TNF antagonist, infliximab (although the monograph specifies that
+                                                no dosing recommendations can be made in patients with renal impairment as
+                                                this has not been studied),<sup>6</sup> rituximab (whose monograph notes
+                                                that no
+                                                pharmacokinetic data are available in renal insufficiency), tocilizumab (the
+                                                monograph specifies that no dose adjustments are required in mild-moderate
+                                                renal impairment while patients with severe renal impairment have not been
+                                                studied) and abatacept (whose monograph, like that of infliximab, states
+                                                that no dose recommendations can be made in renal impairment as this has not
+                                                been studied).
+                                            </p>
+                                            <p>
+                                                Tofacitinib may be used in patients who have an intolerance
+                                                or have failed treatment with MTX and one other csDMARD,<sup>7</sup> but per
+                                                the
+                                                monograph this should be used with caution (and modified dosing) in patients
+                                                with moderate or severe renal insufficiency. Tofacitinib should be avoided
+                                                in patients who are at an increased risk of thrombosis,<sup>7</sup> and
+                                                should be used
+                                                with caution in older patients who are current or past smokers and patients
+                                                with other CV or malignancy risk factors.<sup>8</sup> Health Canada has also
+                                                initiated
+                                                a new safety review of the other JAK inhibitors, upadacitinib and
+                                                baricitinib, examining potential risks of serious heart-related problems,
+                                                cancer and blood clots. Finally, according to its monograph, baricitinib
+                                                does not require dose adjustment in mild renal impairment, but is not
+                                                recommended in patients with moderate-to-severe renal impairment or ESRD.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-item diff-1">
+                        <h3 class="common-title text-deeppink mb-3">
+                            Luciana’s risk factors & comorbidities as part of the metabolic syndrome
+                        </h3>
+                        <div class="accordion-wrapper">
+                            <div class="accordion--items">
+                                <div class="accordion--item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__title__inner">
+                                            <h3>
+                                                What are the indicators of metabolic syndrome in Luciana’s case? What are
+                                                some other risk factors for metabolic syndrome?
+                                            </h3>
+                                            <img src="assets/images/icons/accordion-title.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="accordion__content" style="height: 0px;">
+                                        <div class="accordion__content__inner pt-3">
+                                            <p>
+                                                In Luciana’s case, indicators of the metabolic syndrome include elevated
+                                                triglycerides, low HDL-C, hypertension, and borderline hyperglycemia, high
+                                                BMI, centripetal obesity (elevated waist circumference).
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-item diff-1">
+                        <h3 class="common-title text-deeppink mb-3">
+                            Other risk factors for metabolic syndrome in patients with RA:
+                        </h3>
+                        <p class="text-bold mb-2">
+                            The potential impact of medications
+                        </p>
+                        <div class="accordion-wrapper">
+                            <div class="accordion--items">
+                                <div class="accordion--item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__title__inner">
+                                            <h3>
+                                                What are some other factors/comorbidities for metabolic syndrome that should
+                                                be considered in a patient with rheumatoid arthritis?
+                                            </h3>
+                                            <img src="assets/images/icons/accordion-title.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="accordion__content" style="height: 0px;">
+                                        <div class="accordion__content__inner pt-3">
+                                            <p>
+                                                Some medications, such as chronic low dose prednisone, duloxetine and
+                                                pregabalin for pain, can increase weight. High daily calorie intake and lack
+                                                of exercise causing weight gain can worsen fatty liver.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-item diff-1 diff">
+                        <h3 class="common-title text-deeppink mb-3">
+                            Communication between specialists
+                        </h3>
+                        <p class="mb-2 pb-2">
+                            What messages would rheumatologists and cardiologists like to communicate to primary care
+                            physicians about managing patients with RA with or at risk of metabolic syndrome, and how can
+                            they best communicate their thoughts and plans to primary care physicians and to each other?
+
+                        </p>
+                        <p class="mb-3">
+                            Click to see Dr. Pope’s answer.
+                        </p>
+                        <div class="position-relative mb-3 pb-1">
+                            <video controls src="assets/videos/demo.mp4"></video>
+                            <img src="assets/images/video/1.jpg" alt="">
+                            <a href="#"
+                               class="cursor-pointer position-absolute play-button  d-flex align-items-center justify-content-center">
+                                <img src="assets/images/icons/play-2.svg" alt="">
+                            </a>
+                        </div>
+                        <p class="my-3">
+                            Click to see Dr. Tardif’s answer.
+                        </p>
+                        <div class="position-relative mb-2">
+                            <video controls src="assets/videos/demo.mp4"></video>
+                            <img src="assets/images/video/3.jpg" alt="">
+                            <a href="#"
+                               class="cursor-pointer position-absolute play-button  d-flex align-items-center justify-content-center">
+                                <img src="assets/images/icons/play-2.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-item knowledge-test-box diff-1 two">
+                        <div class="text-center">
+                            <img src="assets/images/knowledge.svg" alt="">
+                            <h3 class="common-title text-deeppink my-4 pt-1">
+                                Patients with RA and/at risk for metabolic syndrome
+                            </h3>
+                            <div class="text-deeppink">
+                                <span class="current-number">
+                                    1
+                                </span>
+                                /
+                                <span class="total-number">
+                                    4
+                                </span>
+                            </div>
+                        </div>
+                        <div class="knowledge-test-questions">
+                            <div class="knowledge-test-question active-item">
+                                <p class="mt-3">
+                                    In patients with RA with fatty liver:
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-4" name="q-1" class="me-1">
+                                        <label for="radio-4">
+                                            MTX is safe to use, regardless of other factors
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-5" name="q-1" class="me-1">
+                                        <label for="radio-5">
+                                            MTX is not safe to use, regardless of other factors
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-6" name="q-1" class="me-1">
+                                        <label for="radio-6">
+                                            MTX is safe to use if F score is F2 or less
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-7" name="q-1" class="me-1">
+                                        <label for="radio-7">
+                                            MTX is safe to use if F score is F1 or less
+                                        </label>
+                                    </li>
+
+
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    MTX dose should be ____________ in patients with moderate chronic renal failure.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-8" name="q-2" class="me-1">
+                                        <label for="radio-8">
+                                            Increased
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-9" name="q-2" class="me-1">
+                                        <label for="radio-9">
+                                            Prescribed as in any other patient
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-10" name="q-2" class="me-1">
+                                        <label for="radio-10">
+                                            Reduced
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-11" name="q-2" class="me-1">
+                                        <label for="radio-11">
+                                            Eliminated
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    Which of the following medications can be associated with a significant increase in
+                                    weight?
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-12" name="q-3" class="me-1">
+                                        <label for="radio-12">
+                                            a. MTX
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-13" name="q-3" class="me-1">
+                                        <label for="radio-13">
+                                            b. Prednisone
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-14" name="q-3" class="me-1">
+                                        <label for="radio-14">
+                                            c. Pregabalin
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-15" name="q-3" class="me-1">
+                                        <label for="radio-15">
+                                            d. Duloxetine
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-16" name="q-3" class="me-1">
+                                        <label for="radio-16">
+                                            e. all of the above
+
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-17" name="q-3" class="me-1">
+                                        <label for="radio-17">
+                                            f. only b, c and d above
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    Which of the following conditions increase the risk of MACE?
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-18" name="q-4" class="me-1">
+                                        <label for="radio-18">
+                                            a. Chronic renal failure
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-19" name="q-4" class="me-1">
+                                        <label for="radio-19">
+                                            b. Metabolic syndrome
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-20" name="q-4" class="me-1">
+                                        <label for="radio-20">
+                                            c. RA </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-21" name="q-4" class="me-1">
+                                        <label for="radio-21">
+                                            d. All of the above
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-22" name="q-4" class="me-1">
+                                        <label for="radio-22">
+                                            e. only b and c above
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center mt-3 next-and-submit">
+                            <a href="#" class="pink-button">Next</a>
+                        </div>
+                    </div>
+                    <div id="references" class="box-item diff-1 references">
+                        <h3 class="common-title text-deeppink mb-3">
+                            References (RA and metabolic syndrome):
+                        </h3>
+
+                        <p class="mb-2">1. Sandrin L, Fourquet B, Hasquenoph JM, <i>et al</i>. Transient elastography: a new
+                            noninvasive method for assessment of hepatic fibrosis. Ultrasound Med Biol 2003; 29:1705-13.
+                        </p>
+                        <p class="mb-2">2. LiverTox: Clinical and Research Information on Drug-Induced Liver Injury.
+                            National Institute of Diabetes and Digestive and Kidney Diseases; 2012-. Methotrexate. Available
+                            at: https://www.ncbi.nlm.nih.gov/books/NBK548219/. Accessed March 2022. </p>
+                        <p class="mb-2">3. Wang W, Zhou H, Liu L. Side effects of methotraxate therapy for rheumatoid
+                            arthritis: A systematic review. European Journal of Medicinal Chemistry 2018; 158(5):502-16.
+                        </p>
+                        <p class="mb-2">4. Erdbrügger U, de Groot K. Is methotrexate nephrotoxic? Dose-dependency,
+                            comorbidities and comedication. Z Rheumatol 2011; 70(7):549-52.</p>
+                        <p class="mb-2">5. Drosos A. Methotrexate intolerance in elderly patients with rheumatoid arthritis:
+                            what are the alternatives? Drugs Aging 2003; 20(10):723-36. </p>
+                        <p class="mb-2">6. Hammoudeh M. Infliximab treatment in a patient with rheumatoid arthritis on
+                            haemodialysis. Rheumatology (Oxford) 2006; 45:357-9.</p>
+                        <p class="mb-2">7. U.S. FDA. FDA requires warnings about increased risk of serious heart-related
+                            events, cancer, blood clots, and death for JAK inhibitors that treat certain chronic
+                            inflammatory conditions. Available at:
+                            www.fda.gov/drugs/drug-safety-and-availability/fda-requires-warnings-about-increased-risk-serious-heart-related-events-cancer-blood-clots-and-death.
+                            Accessed March 2022. </p>
+                        <p class="mb-2">8. Health Canada. Health Canada safety review finds link between the use of Xeljanz
+                            and Xeljanz XR (tofacitinib) and increased risk of serious heart-related issues and cancer.
+                            Available at:
+                            https://recalls-rappels.canada.ca/en/alert-recall/health-canada-safety-review-finds-link-between-use-xeljanz-and-xeljanz-xr-tofacitinib.
+                            Accessed March 2022. </p>
+                        <p class="mb-2">9. Remicade<sup>®</sup> (infliximab) product monograph. Janssen Inc. Revised October
+                            15, 2021.</p>
+                        <p class="mb-2">10. Ruxience (rituximab) product monograph. Pfizer Canada ULC. Revised July 8, 2020.
+                        </p>
+                        <p class="mb-2">11. Actemra<sup>®</sup> (tocilizumab) product monograph. Hoffman-La Roche Ltd.
+                            Revised January 4, 2021.</p>
+                        <p class="mb-2">12. Orencia<sup>®</sup> (abatacept) product monograph. Bristol-Myers Squibb. Revised
+                            September 9, 2019.</p>
+                        <p class="mb-2">13. Xeljanz<sup>®</sup> (tofacitinib) product monograph. Pfizer Canada ULC. Revised
+                            December 9, 2021.</p>
+
+                    </div>
+
+                </div>
+                <div class="right-sidebar">
+                    <div class="box-item">
+                        <div class="rs-content">
+                            <h3 class="text-deeppink border-bottom mb-3">
+                                Luciana at a glance
+                            </h3>
+                            <div class="rs-list mb-3">
+                                <h4 class="text-bold">
+                                    Physical exam
+                                </h4>
+                                <ul class="bullet-point">
+                                    <li>Height 158 cm</li>
+                                    <li>Weight 90 kg (BMI 36.1 kg/m<sup>2</sup>)</li>
+                                    <li>BP 135/90 mmHg</li>
+
+                                </ul>
+                            </div>
+                            <div class="rs-list mb-3">
+                                <h4 class="text-bold">
+                                    Lab values
+                                </h4>
+                                <ul class="bullet-point">
+
+                                    <li>FBS 6.0 mmol/L</li>
+                                    <li>TG 1.8 mmol/L</li>
+                                    <li>HDL-C 1.0 mmol/L</li>
+                                    <li>Creatinine 135 µmol/L</li>
+
+                                </ul>
+                            </div>
+                            <div class="rs-list mb-3">
+                                <h4 class="text-bold">
+                                    Pertinent medical <br>
+                                    & family history
+                                </h4>
+                                <ul class="bullet-point">
+
+                                    <li>
+                                        RA for 6 years, stable on MTX and
+                                        hydroxychloroquine
+                                    </li>
+                                    <li>Obesity, hypertension</li>
+                                    <li>Borderline hyperglycemia</li>
+                                    <li>Type 2 diabetes; dyslipidemia</li>
+                                    <li>Fatty liver</li>
+                                    <li>Mother: type 2 diabetes</li>
+
+
+                                </ul>
+                            </div>
+                            <div class="rs-list mb-3">
+                                <h4 class="text-bold">
+                                    Other pertinent history
+                                </h4>
+                                <ul class="bullet-point">
+                                    <li>
+                                        Former heavy smoker
+                                        (25 years; quit one year ago)
+                                    </li>
+                                    <li>
+                                        No exercise
+                                    </li>
+                                    <li>Occasionally cooks, but mostly eats at
+                                        work cafeteria</li>
+
+                                </ul>
+                            </div>
+                            <div class="rs-list mb-3">
+                                <h4 class="text-bold">
+                                    Current medications
+                                </h4>
+                                <ul class="bullet-point">
+                                    <li>MTX + hydroxychloroquine</li>
+                                    <li>Statin</li>
+                                    <li>ACE inhibitor + diuretic + beta blocker</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p class="text-white">
+                    Copyright 2022. This learning program is supported by Pfizer Canada. The faculty had full editorial
+                    control over the contents of the program. The contents of the program are aligned with the approved
+                    Canadian product monographs. Opinions expressed are those of the presenters and not necessarily Pfizer
+                    Canada. This program is intended for healthcare professionals only.
+                </p>
+            </div>
+        </footer>
+
+
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/index.js"></script>
+    </body>
+
+</html>

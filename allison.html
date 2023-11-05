@@ -1,0 +1,1382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Casebook</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <meta name="robots" content="noindex,nofollow">
+
+    </head>
+
+    <body class="hide">
+
+        <div class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" id="PasswordModal" role="document">
+                <div class="modal-content">
+                    <div class="modal-body text-white">
+                        <div class="landing-modal">
+                            <p class="text-center">
+                                This learning program is intended for <br> healthcare professionals only. 
+                            </p>
+                            <form action="#" class="d-flex flex-column mt-3 pt-1">
+                                <label class="mb-1" for="password">Password</label>
+                                <input id="password" type="password" value="1234">
+                                <label class="mb-1 d-none" id="bad-password">Bad password!</label>
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <header class="bg-white">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="menu-icon d-md-none">
+                    <img src="assets/images/icons/menu-open.svg" alt="">
+                    <img src="assets/images/icons/menu-close.svg" alt="">
+                </div>
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.svg" alt="">
+                </a>
+                <p class="text-center text-pink text-bold d-md-block d-none">
+                    <span class="d-block text-deeppink">
+                        casebook on Comorbidities in RA:
+                    </span>
+                    A Patient-focused Multidisciplinary Perspective
+                </p>
+                <div class="language d-flex align-items-center">
+                    <a class="" href="index.html">
+                        <img class="me-2 d-none d-md-block" src="assets/images/icons/home.svg" alt="">
+                    </a>
+                    <a class="language-switcher" href="#">
+                    <span class="text-deeppink pt-0 pt-md-1 pt-lg-2">
+                        Fr
+                    </span>
+                </a> 
+                </div>
+            </div>
+        </header>
+        <section class="wrapper paitent-content">
+            <div class="container d-flex flex-wrap justify-content-between">
+                <div class="left-sidebar text-center">
+                    <ul>
+                        <li>
+                            <a class="pink-button" href="index.html">
+                                Case studies
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button knowledge-test" href="#">
+                                Knowledge tests
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button reference-button" href="#">
+                                References
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="events.html">
+                                Events
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="associations.html">
+                                Associations
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="about-section.html">
+                                About Section 2/3 credit
+                            </a>
+                        </li>
+                        <li class="d-none d-md-block">
+                            <a class="pink-button" target="_blank" href="https://www.surveymonkey.com/r/RAcasebook">
+                                Evaluation form
+                                <span class="d-block mb-1">
+                                    (for self-directed learning participants only)
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="middle-content">
+                    <div class="row mb-4 pb-1">
+                        <div class="col-lg-3 col-sm-6">
+                            <a href="allison.html" class="active person text-center text-black">
+                                <img src="assets/images/1.png" alt="">
+                                <p class="text-bold">
+                                    Allison G.
+                                </p>
+                                <p class="text-deeppink text-12">
+                                    53-year-old female with RA and risk factors for MACE
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <a href="luciana.html" class="person text-center text-black">
+                                <img src="assets/images/2.png" alt="">
+                                <p class="text-bold">
+                                    Luciana P.
+                                </p>
+                                <p class="text-deeppink text-12">
+                                    56-year-old female with RA and metabolic syndrome
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <a href="robert.html" class="person text-center text-black">
+                                <img src="assets/images/3.png" alt="">
+                                <p class="text-bold">
+                                    Robert L.
+                                </p>
+                                <p class="text-deeppink text-12">
+                                    56-year-old male with RA and history of malignancy
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <a href="caroline.html" class="person text-center text-black">
+                                <img src="assets/images/4.png" alt="">
+                                <p class="text-bold">
+                                    Caroline P.
+                                </p>
+                                <p class="text-deeppink text-12">
+                                    60-year-old female with RA and fibromyalgia
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-item p-0 pb-4 profile-box">
+                        <div class="p-3 p-sm-4 pb-2">
+                            <div class="d-flex mb-4 align-items-center">
+                                <img src="assets/images/1.png" alt="">
+                                <div class="ms-2 ps-1">
+                                    <h3 class="common-title">
+                                        Allison G.
+                                    </h3>
+                                    <p class="text-14 text-deeppink">
+                                        53-year-old female with RA and risk factors for MACE
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="mb-2">
+                                Allison is a 53-year-old white female who works as a computer systems analyst. She is 160
+                                centimetres tall and weighs
+                                80 kilograms. Her BMI is 31.2 kg/m<sup>2</sup> (obese). Allison does not participate in
+                                regular
+                                physical activity but enjoys walking around her neighbourhood. She recently noticed that she
+                                feels shortness of breath after climbing a flight of stairs in her house. She has been
+                                trying to lose weight by changing her diet and eating healthier for the past six months. She
+                                has hypertension. Her most recent BP was 140/95 mmHg. She has type
+                                2 diabetes mellitus, with an elevated fasting glucose of
+                                7.3 mmol/L. Her HbA1c is 8.6 and her LDL-C level is
+                                5.4 mmol/L. Allison has been smoking for 25 years and is trying to quit using nicotine
+                                patches. Her mother was diagnosed with premature cardiovascular coronary artery disease at
+                                the age of 53 years. Allison is currently treated with statins, ACE inhibitors, and oral
+                                hypoglycemics. She has had rheumatoid arthritis for 10 years, and is taking methotrexate.
+                            </p>
+                        </div>
+                        <img src="assets/images/home/5.jpg" alt="">
+                    </div>
+                    <div class="box-item diff-1 profile-box">
+                        <h3 class="common-title text-deeppink mb-3 pb-1">
+                            Current RA management & level of control/severity
+                        </h3>
+                        <div class="d-flex mb-4 align-items-center">
+                            <img src="assets/images/1.png" alt="">
+                            <div class="ms-2 ps-1">
+                                <h3 class="common-title">
+                                    Allison G.
+                                </h3>
+                                <p class="text-14 text-deeppink">
+                                    53-year-old female with RA and risk factors for MACE
+                                </p>
+                            </div>
+                        </div>
+                        <p class="text-italic mb-3 pb-lg-1">
+                            “Due to my personal and family history, my doctor is concerned that I may be at high risk for
+                            heart attacks and strokes (MACE).
+                            I recently had a follow-up with my rheumatologist. She counted my tender and swollen joints and
+                            asked me to rate how my arthritis affects me on a scale of 0 to 10, and we completed a few other
+                            forms and tests.”
+                        </p>
+                        <p class="mb-3">
+                            <strong>
+                                Her assessment was as follows:
+                            </strong>
+                        </p>
+                        <img src="assets/images/allison/1.jpg" alt="">
+                        <p class="mt-3 pt-1">
+                            Allison’s CDAI is 12.5, which indicates moderate inflammatory activity. Her CRP level is
+                            moderately elevated and this places her at increased risk of a cardiovascular event.
+                        </p>
+                    </div>
+                    <div class="box-item diff-1">
+                        <h3 class="text-deeppink common-title mb-3">
+                            Current CVD management & level of control/severity: Considering comorbidities
+                        </h3>
+                        <p class="mb-3">
+                            Allison is hypertensive (140/95 mmHg), obese (BMI 31.2 kg/m<sup>2</sup>), has type 2
+                            diabetes, has been
+                            smoking for 25 years, has dyslipidemia, and has a family history of premature CVD. Which of
+                            these comorbidities are important to consider when you are treating Allison for her RA?
+                        </p>
+                        <ul class="radio-options mt-3 bg-lightgray">
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-1" name="question-1" class="me-1">
+                                <label for="radio-1">
+                                    a. Dyslipidemia
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-2" name="question-1" class="me-1">
+                                <label for="radio-2">
+                                    b. Family history of CVD
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-3" name="question-1" class="me-1">
+                                <label for="radio-3">
+                                    c. Hypertension
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-4" name="question-1" class="me-1">
+                                <label for="radio-4">
+                                    d. Diabetes mellitus
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-5" name="question-1" class="me-1">
+                                <label for="radio-5">
+                                    e. Obesity
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center right">
+                                <input type="radio" id="radio-6" name="question-1" class="me-1">
+                                <label for="radio-6">
+                                    f. All of the above
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-7" name="question-1" class="me-1">
+                                <label for="radio-7">
+                                    g. Only a, c and e above
+                                </label>
+                            </li>
+                        </ul>
+                        <div class="text-center mt-4 submit-button-wrapper">
+                            <a href="#" class="pink-button">
+                                Submit
+                            </a>
+                        </div>
+                        <div class="answer mt-4 d-none">
+                            <p class="text-bold">
+                                All of the above
+                            </p>
+                            <p>
+                                Allison is at a high risk of MACE due to her multiple CV risks and her RA. Patients with RA
+                                have an increased risk of CV events due to systemic inflammation and a high prevalence of
+                                other risk factors.<sup>1</sup> CVD risk factors are highly associated with disease activity
+                                and
+                                disability in patients with RA.<sup>2</sup> Due to the increased morbidity and mortality
+                                associated
+                                with CVD, all patients with RA should be screened for CV risk factors early and
+                                frequently.<sup>3</sup>
+                                Modifiable CV risk factors should be addressed.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box-item diff-1">
+                        <h3 class="text-deeppink common-title mb-3">
+                            CV comorbidities and RA remission
+                        </h3>
+                        <p class="mb-3">
+                            Do CV comorbidities attenuate the chance of remission?
+                        </p>
+                        <ul class="radio-options mt-3 bg-lightgray">
+                            <li class="d-flex align-items-center right">
+                                <input type="radio" id="radio-8" name="question-2" class="me-1">
+                                <label for="radio-8">
+                                    Yes
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-9" name="question-2" class="me-1">
+                                <label for="radio-9">
+                                    No
+                                </label>
+                            </li>
+                        </ul>
+                        <div class="text-center mt-4 submit-button-wrapper">
+                            <a href="#" class="pink-button">
+                                Submit
+                            </a>
+                        </div>
+                        <div class="answer mt-4 d-none">
+                            <p class="text-bold">
+                                Yes
+                            </p>
+                            <p>
+                                Patients with RA have a higher prevalence of CV comorbidities compared to the age- and
+                                sex-matched general population. Having comorbidities in RA decreases the chance of
+                                remission. Patients with active disease on average have worse CV biomarkers (such as poorer
+                                control of BP, glucose and lipids, and higher CRPs) than those in remission.<sup>4</sup> The
+                                time spent
+                                in each acute flare increases CV events by 7% compared to remission.<sup>5</sup> Therefore,
+                                the
+                                treatment of RA should focus on early control and ongoing low disease activity and remission
+                                using a treat-to-target strategy.<sup>6</sup> A treat-to-target approach also reduces the
+                                progression
+                                of atherosclerosis and improves endothelial function.<sup>7</sup>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box-item diff-1">
+                        <h3 class="text-deeppink common-title mb-3">
+                            Cholesterol and lipid targets in patients with MACE risk factors
+                        </h3>
+                        <p class="mb-3">
+                            Allison’s current LDL-C level is 5.4 mmol/L, and her BP is 140/95 mmHg. What do you think her
+                            LDL-C and BP levels should be?
+                        </p>
+                        <ul class="radio-options mt-3 bg-lightgray">
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-10" name="question-3" class="me-1">
+                                <label for="radio-10">
+                                    &#60; 3.5 mmol/L or 50% reduction; &#60; 140/90 mmHg
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center right">
+                                <input type="radio" id="radio-11" name="question-3" class="me-1">
+                                <label for="radio-11">
+                                    &lt; 2.0 mmol/L or 50% reduction; 130/80 mmHg
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-12" name="question-3" class="me-1">
+                                <label for="radio-12">
+                                    &lt; 4.3 mmol/L or 25% reduction; &lt; 138/90 mmHg
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-13" name="question-3" class="me-1">
+                                <label for="radio-13">
+                                    &lt; 7 mmol/L or 25% reduction; current BP is good
+                                </label>
+                            </li>
+                        </ul>
+                        <div class="text-center mt-4 submit-button-wrapper">
+                            <a href="#" class="pink-button">
+                                Submit
+                            </a>
+                        </div>
+                        <div class="answer mt-4 d-none">
+                            <p class="text-bold">
+                                &lt; 2.0 mmol/L or 50% reduction; 130/80 mmHg
+                            </p>
+                            <p class="mb-3">
+                                BP and lipid targets in patients with RA with MACE risk factors should be treated as in
+                                patients with type 2 diabetes. Current guidelines recommend that, in patients with diabetes,
+                                BP goals should be &lt; 140/90 mmHg or more aggressively set at &lt; 130/80
+                                mmHg.<sup>8</sup> In
+                                patients at
+                                a high risk of CVD without diabetes, recommendations are to reduce systolic BP to ≤ 120
+                                mmHg.<sup>9</sup> </p>
+
+                            <p>
+                                LDL-C should be consistently &lt; 2.0 mmol/L, or there should be more than 50%
+                                reduction from the baseline.<sup>10</sup> If LDL-C is high, lipid-lowering therapy is
+                                recommended. Further, the 2021 Canadian Cardiovascular Society guidelines provide
+                                additional recommendations for patients with dyslipidemia. Specifically, if
+                                triglycerides are &lt; 1.5 mmol/L, treatment should be monitored with LDL-C, non-HDL-C
+                                or ApoB (fasting or non-fasting). If triglycerides are ≥ 1.5 mmol/L, treatment
+                                should be monitored with non-HDL-C or ApoB (fasting or non-fasting).<sup>11</sup> </p>
+
+
+
+
+                        </div>
+                    </div>
+                    <div class="box-item diff-1 profile-box">
+                        <h3 class="text-deeppink common-title mb-4">
+                            Polypharmacy in RA patients with CV risk factors
+                        </h3>
+                        <div class="d-flex mb-4 align-items-center">
+                            <img src="assets/images/1.png" alt="">
+                            <div class="ms-2 ps-1">
+                                <h3 class="common-title">
+                                    Allison G.
+                                </h3>
+                                <p class="text-14 text-deeppink">
+                                    53-year-old female with RA and risk factors for MACE
+                                </p>
+                            </div>
+                        </div>
+                        <p class="text-italic mb-3 pb-2">
+                            Due to my general health, I am taking several drugs to manage my blood pressure, diabetes, and
+                            cholesterol levels. It is a lot of drugs to take, and sometimes, I forget to take some of them.
+                        </p>
+                        <p>
+                            A patient with rheumatoid arthritis is taking several medications (i.e., for RA and CV
+                            comorbidity). Does polypharmacy (i.e., use of five or more drugs) reduce the chance of remission
+                            in this patient?
+                        </p>
+                        <ul class="radio-options mt-3 bg-lightgray">
+                            <li class="d-flex align-items-center right">
+                                <input type="radio" id="radio-14" name="question-4" class="me-1">
+                                <label for="radio-14">
+                                    Yes
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-15" name="question-4" class="me-1">
+                                <label for="radio-15">
+                                    No
+                                </label>
+                            </li>
+                        </ul>
+                        <div class="text-center mt-4 submit-button-wrapper">
+                            <a href="#" class="pink-button">
+                                Submit
+                            </a>
+                        </div>
+                        <div class="answer mt-4 d-none">
+                            <p class="text-bold">
+                                Yes
+                            </p>
+                            <p>
+                                Polypharmacy can negatively impact treatment outcomes. Patients are less likely to adhere to
+                                their treatment if they take several drugs to manage their CV comorbidities and RA.
+                                Moreover, patients taking several drugs are more likely to have adverse effects to
+                                medications, the possibility of drug interactions, increased hospitalization, and
+                                mortality.<sup>12</sup> Some general measures can help mitigate these issues. For example,
+                                patients can
+                                use blister packs or daily pill organizers for medications, or even reminder apps on their
+                                phones.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box-item diff-1">
+                        <h3 class="text-deeppink common-title mb-3">
+                            This patient’s risk factors for MACE:
+                            C-reactive protein
+
+                        </h3>
+                        <p class="mb-3">
+                            Does Allison’s CRP level (11.5 mg/L) put her at increased risk of MACE?
+                        </p>
+                        <ul class="radio-options mt-3 bg-lightgray">
+                            <li class="d-flex align-items-center right">
+                                <input type="radio" id="radio-16" name="question-5" class="me-1">
+                                <label for="radio-16">
+                                    Yes
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-17" name="question-5" class="me-1">
+                                <label for="radio-17">
+                                    No
+                                </label>
+                            </li>
+                        </ul>
+                        <div class="text-center mt-4 submit-button-wrapper">
+                            <a href="#" class="pink-button">
+                                Submit
+                            </a>
+                        </div>
+                        <div class="answer mt-4 d-none">
+                            <p class="text-bold">
+                                Yes
+                            </p>
+                            <p>
+                                Allison’s CRP level is high and places her at a higher risk of a CV event.
+
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box-item diff-1">
+                        <h3 class="text-deeppink common-title mb-3">
+                            This patient’s risk factors for MACE
+
+                        </h3>
+                        <p class="mb-3">
+                            What are Allison’s risk factors for MACE?
+                        </p>
+                        <ul class="radio-options mt-3 bg-lightgray">
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-18" name="question-6" class="me-1">
+                                <label for="radio-18">
+                                    Her occupation
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center right">
+                                <input type="radio" id="radio-19" name="question-6" class="me-1">
+                                <label for="radio-19">
+                                    Diabetes mellitus, dyslipidemia, smoking, HTN
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-20" name="question-6" class="me-1">
+                                <label for="radio-20">
+                                    Non-smoking status
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-21" name="question-6" class="me-1">
+                                <label for="radio-21">
+                                    Low BMI
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-22" name="question-6" class="me-1">
+                                <label for="radio-22">
+                                    All of the above
+                                </label>
+                            </li>
+
+
+
+
+
+
+
+                        </ul>
+                        <div class="text-center mt-4 submit-button-wrapper">
+                            <a href="#" class="pink-button">
+                                Submit
+                            </a>
+                        </div>
+                        <div class="answer mt-4 d-none">
+                            <p class="text-bold">
+                                Diabetes mellitus, dyslipidemia, smoking, HTN
+                            </p>
+                            <p>
+
+                                Allison’s risk factors for MACE include diabetes mellitus, dyslipidemia, smoking, and
+                                hypertension. She also has a high BMI.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="box-item diff-3">
+                        <h3 class="common-title text-deeppink mb-3">
+                            Is elevated BMI an independent risk factor for MACE?
+                        </h3>
+                        <p class="mb-2 pb-2">
+                            Click to see Dr. Tardif’s answer.
+                        </p>
+                        <div class="position-relative mb-2">
+                            <video controls src="assets/videos/demo.mp4"></video>
+                            <img src="assets/images/video/3.jpg" alt="">
+                            <a href="#"
+                               class="cursor-pointer position-absolute play-button  d-flex align-items-center justify-content-center">
+                                <img src="assets/images/icons/play-2.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-item diff-1">
+                        <h3 class="common-title text-deeppink mb-3">
+                            Framingham vs. Reynold’s risk scores
+                        </h3>
+                        <p class="mb-2 pb-2">
+                            CV risk can be assessed using the Framingham or Reynold’s risk scores. Click on each box to read
+                            more information about the benefits/drawback of each, and considerations for their clinical use.
+                        </p>
+                        <div class="accordion-wrapper">
+                            <div class="accordion--items">
+                                <div class="accordion--item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__title__inner">
+                                            <h3>
+                                                Framingham risk score
+                                            </h3>
+                                            <img src="assets/images/icons/accordion-title.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="accordion__content">
+                                        <div class="accordion__content__inner pt-3 mt-2 view-image">
+                                            <a target="_blank" href="assets/images/allison/2.jpg">
+                                                <img src="assets/images/allison/2.jpg" alt="">
+                                            </a>
+                                            <p class="mt-3 pt-3">
+                                                The Framingham risk score is calculated based on age, sex, HDL-C, total
+                                                cholesterol, SBP, smoking status, and presence of diabetes. However, this
+                                                score does not consider the level of inflammation, such as hsCRP. Thus,
+                                                EULAR recommends applying a 1.5 multiplier to the calculated CV risk score
+                                                for patients with RA,<sup>3</sup> and the joint American Academy of
+                                                Dermatology (AAD)
+                                                and National Psoriasis Foundation (NPF) guidelines recommended doing the
+                                                same for patients with psoriatic arthritis (PsA).<sup>13</sup>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion--item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__title__inner">
+                                            <h3>
+                                                Reynold’s risk score
+                                            </h3>
+                                            <img src="assets/images/icons/accordion-title.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="accordion__content">
+                                        <div class="accordion__content__inner pt-3 mt-2">
+                                            <a target="_blank" href="assets/images/allison/Reynolds Risk Score.JPG">
+                                                <img src="assets/images/allison/Reynolds Risk Score.JPG" alt="">
+                                            </a>
+                                            <p class="mt-2 pt-1">
+                                                The Reynold’s risk score is quantified based on the patient’s age, sex, BP,
+                                                cholesterol levels, smoking status, and family history. This risk score also
+                                                incorporates the inflammatory marker C-reactive protein
+                                                (hsCRP).<sup>14,15</sup>
+                                                Therefore, Reynold’s risk score may be more sensitive to inflammatory
+                                                fluctuations.<sup>16</sup>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mt-3 pt-1">
+                            Assessing cardiovascular risk using solely the Framingham or Reynold’s score can underestimate
+                            and sometimes overestimate CV risk in patients with RA.<sup>17</sup>
+                        </p>
+                    </div>
+                    <div class="box-item diff-1 diff-3 pb-3">
+                        <h3 class="common-title text-deeppink mb-3">
+                            Other non-invasive tests to screen CV risk in patients with RA
+                        </h3>
+                        <p class="mb-2 pb-2">
+                            Which additional, non-invasive tests should be used to screen for CV risk in patients with RA?
+                        </p>
+                        <p class="mb-3">
+                            Click to see Dr. Tardif’s answer.
+                        </p>
+                        <div class="position-relative mb-2">
+                            <video controls src="assets/videos/demo.mp4"></video>
+                            <img src="assets/images/video/3.jpg" alt="">
+                            <a href="#"
+                               class="cursor-pointer position-absolute play-button  d-flex align-items-center justify-content-center">
+                                <img src="assets/images/icons/play-2.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-item diff-1">
+                        <h3 class="common-title text-deeppink mb-3">
+                            Other risk factors for MACE
+                        </h3>
+                        <p>
+                            Other risk factors for MACE include:<sup>20</sup>
+                        </p>
+                        <ul class="mb-3 pb-1">
+                            <li><strong>1.</strong> Atherosclerosis</li>
+                            <li><strong>2.</strong> Heart failure</li>
+                            <li><strong>3.</strong> Cardiomyopathy</li>
+                            <li><strong>4.</strong> Chronic kidney disease and renal failure</li>
+                            <li><strong>5.</strong> Anemia</li>
+                            <li><strong>6.</strong> Chronic pulmonary dysfunction</li>
+                            <li><strong>7.</strong> Significant arrhythmias </li>
+                            <li><strong>8.</strong> Ischemic heart disease</li>
+                        </ul>
+                        <p class="mb-2 pb-2">
+                            Age and sex are also risk factors. Males typically develop cardiovascular disease about 10 years
+                            earlier than females. However, males are more likely to develop MACE.<sup>21</sup>
+                        </p>
+                        <p>
+                            Corticosteroids and NSAIDs may have negative effects on the heart and blood
+                            vessels.<sup>22</sup>
+                        </p>
+                    </div>
+
+                    <div class="box-item diff-1">
+                        <h3 class="common-title text-deeppink mb-3">
+                            Mitigating CV risk factors in patients with RA
+                        </h3>
+                        <p class="text-bold mb-2 pb-2">
+                            What are some ways to help Allison quit smoking, improve her BMI and control her diabetes?
+                        </p>
+                        <p class="mb-2 pb-2">
+                            There are several different ways to help Allison quit smoking, reduce her BMI, and help her
+                            control her diabetes. Click the boxes below to learn more.
+                        </p>
+                        <p class="mb-2 pb-2">
+                            Many pharmacists can also prescribe smoking-cessation aids. Referral to diabetes education
+                            should be considered and should involve seeing a nurse and a dietician who will discuss targets
+                            such as BMI, proper diet, HbA1C control, etc.
+                        </p>
+                        <div class="accordion-wrapper">
+                            <div class="accordion--items">
+                                <div class="accordion--item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__title__inner">
+                                            <h3>
+                                                Smoking
+                                            </h3>
+                                            <img src="assets/images/icons/accordion-title.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="accordion__content" style="height: 0px;">
+                                        <div class="accordion__content__inner">
+                                            <p class="text-bold">
+                                                What are some options to help Allison quit smoking? Are medications for
+                                                smoking cessation safe for patients with RA?
+                                            </p>
+                                            <p class="mt-3 pt-1">
+                                                Smoking cessation is associated with decreased inflammatory activity and a
+                                                better response to treatment.<sup>23</sup> Some options to quit smoking
+                                                involve
+                                                nicotine-replacement products,<sup>24</sup> which are safe in patients with
+                                                RA. Many
+                                                pharmacists can prescribe smoking-cessation aids such as nicotine patches,
+                                                pills, etc.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion--item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__title__inner">
+                                            <h3>
+                                                BMI
+                                            </h3>
+                                            <img src="assets/images/icons/accordion-title.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="accordion__content" style="height: 0px;">
+                                        <div class="accordion__content__inner">
+                                            <p class="text-bold">
+                                                How can rheumatologists help patients improve their BMI? What are some
+                                                resources to help reduce BMI?
+                                            </p>
+                                            <p class="mt-3 pt-1">
+                                                Lifestyle advice, such as exercise and healthy eating, should be provided to
+                                                patients with RA. Physical activity improves RA symptoms by strengthening
+                                                muscles and tissues surrounding the joints which have been weakened by
+                                                RA.<sup>25</sup>
+                                                Exercise is also an excellent option to manage diabetes and hyperlipidemia.
+                                                Some patients may join a gym or hire a personal trainer or nutritionist. A
+                                                physiotherapist consult may provide patients with information on the
+                                                range-of-motion, strengthening, and endurance exercises they can safely
+                                                perform at their home.
+                                            </p>
+                                            <p class="mt-3 pt-1">
+                                                Unfortunately, not all of these services are covered by public insurance,
+                                                and most also require patient motivation. Self-management classes and
+                                                (evidence-based) online resources may also be helpful. For example, The
+                                                Arthritis Society has available resources for patients regarding exercise
+                                                and healthy eating and the benefits of these for arthritis.<sup>28</sup>
+                                            </p>
+
+                                            <p class="mt-3 pt-1">
+                                                Patients may also consider reducing sugar intake, eating more vegetables and
+                                                fruit, choosing non-saturated fats, such as olive and canola oil, and
+                                                switching to foods high in omega-3 fatty acids, such as walnuts and cold-water fish, sunflower seeds and flaxseeds.<sup>25</sup> This diet is associated
+                                                with
+                                                decreased CV risk<sup>26</sup> and decreased inflammatory activity. A
+                                                Mediterranean
+                                                diet can also be recommended. Coverage for dietary supplements varies by
+                                                province.
+                                            </p>
+
+                                            <p class="mt-3 pt-1">
+                                                Some drugs like semaglutide may be used to lose weight but are not indicated
+                                                for everyone (i.e., can only be used in patients with type II diabetes
+                                                mellitus).
+                                            </p>
+                                            <p class="mt-3 pt-1">
+                                                However, barriers to some of these options exist. Not all patients can
+                                                afford a gym membership, hire a personal trainer and/or dietitian, or go to
+                                                a physiotherapist. Due to their symptoms (i.e., active RA and chronic pain),
+                                                patients may not feel motivated to exercise or change their diet.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="accordion--item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__title__inner">
+                                            <h3>
+                                                Diabetes
+                                            </h3>
+                                            <img src="assets/images/icons/accordion-title.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="accordion__content" style="height: 0px;">
+                                        <div class="accordion__content__inner">
+                                            <p class="text-bold">
+                                                What are some options to help patients with RA improve their diabetes
+                                                control?
+                                            </p>
+                                            <p class="mt-3 pt-1">
+                                                There are several ways patients with RA can improve their diabetes control.
+                                                Referral to an endocrinologist can reduce the risk of CV events. A primary
+                                                care physician can also monitor, tightly target and control diabetes.
+                                                Lastly, if the patient is taking steroids, it is advisable to reduce the
+                                                dose and discontinue as soon as possible due to its potential to raise glucose
+                                                levels.<sup>27</sup>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-item diff-1 diff">
+                        <h3 class="common-title text-deeppink mb-3">
+                            Communication between specialists
+                        </h3>
+                        <p class="mb-2 pb-2">
+                            What messages would rheumatologists and cardiologists like to communicate to primary care
+                            physicians about the management of patients with RA at risk of MACE?
+                        </p>
+                        <p class="mb-3">
+                            Click to see Dr. Pope’s answer.
+                        </p>
+                        <div class="position-relative mb-3 pb-1">
+                            <video controls src="assets/videos/demo.mp4"></video>
+                            <img src="assets/images/video/1.jpg" alt="">
+                            <a href="#"
+                               class="cursor-pointer position-absolute play-button  d-flex align-items-center justify-content-center">
+                                <img src="assets/images/icons/play-2.svg" alt="">
+                            </a>
+                        </div>
+                        <p class="my-3">
+                            Click to see Dr. Tardif’s answer.
+                        </p>
+                        <div class="position-relative mb-2">
+                            <video controls src="assets/videos/demo.mp4"></video>
+                            <img src="assets/images/video/3.jpg" alt="">
+                            <a href="#"
+                               class="cursor-pointer position-absolute play-button  d-flex align-items-center justify-content-center">
+                                <img src="assets/images/icons/play-2.svg" alt="">
+                            </a>
+                        </div>
+                        <p class="mt-3 pt-2 mb-4">
+                            How can rheumatologists best communicate their plans and thoughts to other specialists involved
+                            in a patient’s care?
+                        </p>
+                        <p class="mb-3">
+                            Click to see Dr. Pope’s answer.
+                        </p>
+                        <div class="position-relative mb-2">
+                            <video controls src="assets/videos/demo.mp4"></video>
+                            <img src="assets/images/video/1.jpg" alt="">
+                            <a href="#"
+                               class="cursor-pointer position-absolute play-button  d-flex align-items-center justify-content-center">
+                                <img src="assets/images/icons/play-2.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-item knowledge-test-box diff-1 one">
+                        <div class="text-center">
+                            <img src="assets/images/knowledge.svg" alt="">
+                            <h3 class="common-title text-deeppink my-4 pt-1">
+                                Patients with RA at risk for MACE
+                            </h3>
+                            <div class="text-deeppink">
+                                <span class="current-number">
+                                    1
+                                </span>
+                                /
+                                <span class="total-number">
+                                    9
+                                </span>
+                            </div>
+                        </div>
+                        <div class="knowledge-test-questions">
+                            <div class="knowledge-test-question active-item">
+                                <p class="mt-3">
+                                    Patients with RA at a high risk of MACE should be screened for CV risk factors early and
+                                    over time.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-23" name="q-1" class="me-1">
+                                        <label for="radio-23">
+                                            True
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-24" name="q-1" class="me-1">
+                                        <label for="radio-24">
+                                            False
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    In patients with CV comorbidities, treatment of RA should focus on:
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-25" name="q-2" class="me-1">
+                                        <label for="radio-25">
+                                            Remission
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-26" name="q-2" class="me-1">
+                                        <label for="radio-26">
+                                            Early control of disease activity and remission
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-27" name="q-2" class="me-1">
+                                        <label for="radio-27">
+                                            Reducing obesity
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-28" name="q-2" class="me-1">
+                                        <label for="radio-28">
+                                            Early control only
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    In terms of treatment targets, a patient with RA with MACE risk factor should be
+                                    treated:
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-29" name="q-3" class="me-1">
+                                        <label for="radio-29">
+                                            as a patient with type I diabetes
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-30" name="q-3" class="me-1">
+                                        <label for="radio-30">
+                                            as patient with type 2 diabetes
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-31" name="q-3" class="me-1">
+                                        <label for="radio-31">
+                                            the same as an RA patient without MACE risk factors
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-32" name="q-3" class="me-1">
+                                        <label for="radio-32">
+                                            according to the presence or absence of positive family history
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    What are the LDL-C and BP targets in patients with RA and MACE risk factors?
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-33" name="q-4" class="me-1">
+                                        <label for="radio-33">
+                                            &lt;3.5 mmol/L or 50% reduction; &lt;140/90 mmHg
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-34" name="q-4" class="me-1">
+                                        <label for="radio-34">
+                                            &lt;2.0 mmol/L or 50% reduction; &lt;130/80 mmHg
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-35" name="q-4" class="me-1">
+                                        <label for="radio-35"> 
+                                            &lt;4.3 mmol/L or 25% reduction; &lt;130/90 mmHg
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-36" name="q-4" class="me-1">
+                                        <label for="radio-36">
+                                            &lt;7 mmol/L or 25% reduction; current BP is good
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    What does Reynold’s risk score account for that the Framingham risk score does not?
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-37" name="q-5" class="me-1">
+                                        <label for="radio-37">
+                                            Family history
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-38" name="q-5" class="me-1">
+                                        <label for="radio-38">
+                                            Level of inflammation (hsCRP)
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-39" name="q-5" class="me-1">
+                                        <label for="radio-39">
+                                            Medical history
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-40" name="q-5" class="me-1">
+                                        <label for="radio-40">
+                                            Patient gender
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    According to EULAR, Framingham risk score should be multiplied by a factor of ___ for
+                                    most patients with RA.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-41" name="q-6" class="me-1">
+                                        <label for="radio-41">
+                                            1.5
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-42" name="q-6" class="me-1">
+                                        <label for="radio-42">
+                                            2.5
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-43" name="q-6" class="me-1">
+                                        <label for="radio-43">
+                                            3.0
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-44" name="q-6" class="me-1">
+                                        <label for="radio-44">
+                                            none of the above
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    Non-invasive tools that can be used to screen for CV risk in patients with RA include:
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-45" name="q-7" class="me-1">
+                                        <label for="radio-45">
+                                            a. X-ray
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-46" name="q-7" class="me-1">
+                                        <label for="radio-46">
+                                            b. Carotid ultrasonography
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-47" name="q-7" class="me-1">
+                                        <label for="radio-47">
+                                            c. Coronary CT
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-48" name="q-7" class="me-1">
+                                        <label for="radio-48">
+                                            d. all of the above
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-49" name="q-7" class="me-1">
+                                        <label for="radio-49">
+                                            e. only b and c above
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    Effective ways to improve BMI include:
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-50" name="q-8" class="me-1">
+                                        <label for="radio-50">
+                                            a. exercise
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-51" name="q-8" class="me-1">
+                                        <label for="radio-51">
+                                            b.  low-carbohydrate diet
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-52" name="q-8" class="me-1">
+                                        <label for="radio-52">
+
+                                            c. use of traditional dMARDs
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-53" name="q-8" class="me-1">
+                                        <label for="radio-53">
+                                            d. all of the above
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-54" name="q-8" class="me-1">
+                                        <label for="radio-54">
+                                            e. only a and b
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    Smoking cessation may be associated with:
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-55" name="q-9" class="me-1">
+                                        <label for="radio-55">
+                                            decreased inflammatory activity and response to RA treatment.
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-56" name="q-9" class="me-1">
+                                        <label for="radio-56">
+                                            decreased inflammatory activity and increased response to RA treatment.
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-57" name="q-9" class="me-1">
+                                        <label for="radio-57">
+                                            increased inflammatory activity and response to RA treatment.
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-58" name="q-9" class="me-1">
+                                        <label for="radio-58">
+                                            increased inflammatory activity and decreased response to RA treatment.
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center mt-3 next-and-submit">
+                            <a href="#" class="pink-button">Next</a>
+                        </div>
+                    </div>
+                    <div id="references" class="box-item diff-1 references">
+                        <h3 class="common-title text-deeppink mb-3">
+                            References (RA and risk factors for MACE):
+                        </h3>
+                        <p class="mb-2">1. Colaco K, Ocampo V, Ayala AP, <i>et al</i>. Predictive Utility of Cardiovascular
+                            Risk
+                            Prediction Algorithms in Inflammatory Rheumatic Diseases: A Systematic Review. J Rheumatol 2020;
+                            47:928-38.</p>
+                        <p class="mb-2">2. Cui K, Movahedi M, Bombardier C, <i>et al</i>. Cardiovascular risk factors are
+                            negatively associated with rheumatoid arthritis disease outcomes. Therapeutic Advances in
+                            Musculoskeletal Disease 2021; 13:1-10. </p>
+                        <p class="mb-2">3. Agca R, Heslinga SC, Rollefstad S, <i>et al</i>. EULAR recommendations for
+                            cardiovascular disease risk management in patients with rheumatoid arthritis and other forms of
+                            inflammatory joint disorders: 2015/2016 update. Ann Rheum Dis 2017; 76(1):17-28. </p>
+                        <p class="mb-2">4. Provan SA, Semb AG, Hisdal J, <i>et al</i>. Remission is the goal for
+                            cardiovascular
+                            risk management in patients with rheumatoid arthritis: a cross-sectional comparative study. Ann
+                            Rheum Dis 2011; 70(5):812-7.</p>
+                        <p class="mb-2">5. Myasoedova E, Chandran A, Ilhan B, <i>et al</i>. The role of rheumatoid arthritis
+                            (RA)
+                            flare and cumulative burden of RA severity in the risk of cardiovascular disease. Ann Rheum Dis
+                            2016; 75:560-5. </p>
+                        <p class="mb-2">6. Stoffer MA, Schoels MM, Smolen JS, <i>et al</i>. Evidence for treating rheumatoid
+                            arthritis to target: results of a systematic literature search update. Ann Rheum Dis 2016;
+                            75(1):16-22. </p>
+                        <p class="mb-2">7. Guin A, Chatterjee Adhikari M, Chakraborty S, <i>et al</i>. Effects of disease
+                            modifying
+                            anti-rheumatic drugs on subclinical atherosclerosis and endothelial dysfunction which has been
+                            detected in early rheumatoid arthritis: 1-year follow-up study. Semin Arthritis Rheum 2013;
+                            43(1):48-54.</p>
+                        <p class="mb-2">8. Tobe SW, Gilbert RE, Jones C, <i>et al</i>. Diabetes Canada 2018 Clinical
+                            Practice
+                            Guidelines for the Prevention and Management of Diabetes in Canada: Treatment of Hypertension.
+                            Can J Diabetes 2018; 42(Suppl 1):S186.</p>
+                        <p class="mb-2">9. Leung AA, Daskalopoulou SS, Dasgupta K, <i>et al</i>. Hypertension Canada.
+                            Hypertension
+                            Canada’s 2017 Guidelines for Diagnosis, Risk Assessment, Prevention, and Treatment of
+                            Hypertension in Adults. Can J Cardiol 2017; 33(5):557-76.</p>
+                        <p class="mb-2">10. Mancini GB, Hegele RA, Leiter LA. Diabetes Canada 2018 Clinical Practice
+                            Guidelines for the Prevention and Management of Diabetes in Canada: Dyslipedimia. Can J Diabetes
+                            2018; 42(Suppl 1):S178-S185.</p>
+                        <p class="mb-2">11. Pearson GJ, Thanassoulis G, Anderson TJ, <i>et al</i>. 2021 Canadian
+                            Cardiovascular
+                            Society Guidelines for the Management of Dyslipidemia for the Prevention of Cardiovascular
+                            Disease in Adults. Can J Cardiol 2021; 37(8):1129-50. </p>
+                        <p class="mb-2">12. Gomides APM, Albuquerque CP, Santos ABV, <i>et al</i>. High Levels of
+                            Polypharmacy in
+                            Rheumatoid Arthritis-A Challenge Not Covered by Current Management Recommendations: Data From a
+                            Large Real-Life Study. J Pharm Pract 2021; 34(3):365-71.</p>
+                        <p class="mb-2">13. Elmets CA, Leonardi CL, Davis DMR, <i>et al</i>. Joint AAD-NPF guidelines of
+                            care for
+                            the management and treatment of psoriasis with awareness and attention to comorbidities. J Am
+                            Acad Dermatol 2019; 80(4):1073-113. </p>
+                        <p class="mb-2">14. Ridker PM, Buring JE, Rifai N, <i>et al</i>. Development and validation of
+                            improved
+                            algorithms for the assessment of global cardiovascular risk in women: the Reynolds Risk Score.
+                            JAMA 2007; 297:611-9. </p>
+                        <p class="mb-2">15. Ridker PM, Paynter NP, Rifai N, <i>et al</i>. C-reactive protein and parental
+                            history
+                            improve global cardiovascular risk prediction: the Reynolds Risk Score for men. Circulation
+                            2008; 118:2243-51.</p>
+                        <p class="mb-2">16. Yu Z, Yang N, Everett BM, <i>et al</i>. Impact of Changes in Inflammation on
+                            Estimated
+                            Ten-Year Cardiovascular Risk in Rheumatoid Arthritis. Arthritis Rheumatol 2018; 70(9):1392-8.
+                        </p>
+                        <p class="mb-2">17. Colaco K, Ocampo V, Ayala AP, <i>et al</i>. Predictive Utility of Cardiovascular
+                            Risk
+                            Prediction Algorithms in Inflammatory Rheumatic Diseases: A Systematic Review. J Rheumatol 2020;
+                            47(6):928-38.</p>
+                        <p class="mb-2">
+                            18. Evans MR, Escalante A, Battafarano DF, <i>et al</i>. Carotid atherosclerosis predicts incident
+                            acute
+                            coronary syndromes in rheumatoid arthritis. Arthritis Rheum 2011; 63:1211-20.
+                        </p>
+                        <p class="mb-2">19. Corrales A, Parra JA, González-Juanatey C, <i>et al</i>. Cardiovascular risk
+                            stratification in rheumatic diseases: carotid ultrasound is more sensitive than Coronary Artery
+                            Calcification Score to detect subclinical atherosclerosis in patients with rheumatoid arthritis.
+                            Ann Rheum Dis 2013; 72(11):1764-70.</p>
+                        <p class="mb-2">20. Lobo SA, Fischer S. Cardiac Risk Assessment. StatPearls Publishing, 2022.
+                            Available at: https://www.ncbi.nlm.nih.gov/books/NBK537146/. Accessed March 2022. </p>
+                        <p class="mb-2">21. Haine A, Kavanagh S, Berger JS, <i>et al</i>. International Steering Committee
+                            and
+                            Investigators of the EUCLID Trial. Sex-Specific Risks of Major Cardiovascular and Limb Events in
+                            Patients With Symptomatic Peripheral Artery Disease. J Am Coll Cardiol 2020; 75(6):608-17. </p>
+                        <p class="mb-2">22. Nurmohamed MT, Heslinga M, Kitas GD. Cardiovascular comorbidity in rheumatic
+                            diseases. Nat Rev Rheumatol 2015; 11(12):693-704.</p>
+                        <p class="mb-2">23. Vittecoq O, Richard L, Banse C, <i>et al</i>. The impact of smoking on
+                            rheumatoid
+                            arthritis outcomes. Joint Bone Spine 2008; 85(2):135-8. </p>
+                        <p class="mb-2">24. Ontario Medical Association. Education and Prevention Committee Interpretive
+                            Bulletin. Specific Neurocognitive Assessment (K032) and Smoking Cessation services (E079 and
+                            K039). Available at: www.oma.org/uploadedfiles/oma/media/public/0802epc_bulletin.pdf. Accessed
+                            March 2022. </p>
+                        <p class="mb-2">25. The Arthritis Society. Self-Management. Available at:
+                            https://arthritis.ca/about-arthritis/arthritis-types-(a-z)/types/rheumatoid-arthritis. Accessed
+                            April 2022. </p>
+                        <p class="mb-2">26. Guasch-Ferré M, Hu FB, Martínez-González MA, <i>et al</i>. Olive oil intake and
+                            risk of
+                            cardiovascular disease and mortality in the PREDIMED Study. BMC Med 2014; 13;12:78. </p>
+                        <p class="mb-2">27. Ozen G, Pedro S, Holmqvist ME, <i>et al</i>. Risk of diabetes mellitus
+                            associated with
+                            disease-modifying antirheumatic drugs and statins in rheumatoid arthritis. Ann Rheum Dis 2017;
+                            76(5):848-54.</p>
+                        <p class="mb-2">28. The Arthritis Society. Online Learning Modules. Available at:
+                            https://arthritis.ca/support-education/online-learning/. Accessed April 2022.</p>
+
+                    </div>
+                </div>
+                <div class="right-sidebar">
+                    <div class="box-item">
+                        <div class="rs-content">
+                            <h3 class="text-deeppink border-bottom mb-3">
+                                Allison at a glance
+                            </h3>
+                            <div class="rs-list mb-3">
+                                <h4 class="text-bold">
+                                    Physical exam
+                                </h4>
+                                <ul class="bullet-point">
+                                    <li>Height 160 cm</li>
+                                    <li>Weight 80 kg (BMI 31.2 kg/m<sup>2</sup>)</li>
+                                    <li>BP 140/95 mmHg</li>
+                                </ul>
+                            </div>
+                            <div class="rs-list mb-3">
+                                <h4 class="text-bold">
+                                    Lab values
+                                </h4>
+                                <ul class="bullet-point">
+
+                                    <li>FBG 7.3 mmol/L</li>
+                                    <li>HbA1c 8.6</li>
+                                    <li>LDL-C 5.4 mmol/L</li>
+                                </ul>
+                            </div>
+                            <div class="rs-list mb-3">
+                                <h4 class="text-bold">
+                                    Pertinent medical <br>
+                                    & family history
+                                </h4>
+                                <ul class="bullet-point">
+                                    <li>RA for 10 years, stable on MTX</li>
+                                    <li>
+                                        Obesity, hypertension, dyslipidemia,
+                                        type 2 diabetes
+                                    </li>
+                                    <li>Mother: premature CAD at age 53 years</li>
+                                </ul>
+                            </div>
+                            <div class="rs-list mb-3">
+                                <h4 class="text-bold">
+                                    Other pertinent history
+                                </h4>
+                                <ul class="bullet-point">
+                                    <li>Smoker (25 years); trying to quit</li>
+                                    <li>Exercise: light walks</li>
+                                    <li>Switched to healthy diet (6 months ago)</li>
+                                    <li>Reports shortness of breath after
+                                        climbing a flight of stairs</li>
+                                </ul>
+                            </div>
+                            <div class="rs-list mb-3">
+                                <h4 class="text-bold">
+                                    Current medications
+                                </h4>
+                                <ul class="bullet-point">
+                                    <li>MTX</li>
+                                    <li>Metformin</li>
+                                    <li>Statin</li>
+                                    <li>ACE inhibitor</li>
+                                    <li>Nicotine patches</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p class="text-white">
+                    Copyright 2022. This learning program is supported by Pfizer Canada. The faculty had full editorial
+                    control over the contents of the program. The contents of the program are aligned with the approved
+                    Canadian product monographs. Opinions expressed are those of the presenters and not necessarily Pfizer
+                    Canada. This program is intended for healthcare professionals only.
+                </p>
+            </div>
+        </footer>
+
+
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/index.js"></script>
+    </body>
+
+</html>

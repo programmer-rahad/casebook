@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Casebook</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <meta name="robots" content="noindex,nofollow">
+
+    </head>
+
+    <body class="hide">
+
+        <div class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" id="PasswordModal" role="document">
+                <div class="modal-content">
+                    <div class="modal-body text-white">
+                        <div class="landing-modal">
+                            <p class="text-center">
+                                This learning program is intended for <br> healthcare professionals only. 
+                            </p>
+                            <form action="#" class="d-flex flex-column mt-3 pt-1">
+                                <label class="mb-1" for="password">Password</label>
+                                <input id="password" type="password" value="1234">
+                                <label class="mb-1 d-none" id="bad-password">Bad password!</label>
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <header class="bg-white">
+            <div class="container d-flex justify-content-between align-items-center">
+                <div class="menu-icon d-md-none">
+                    <img src="assets/images/icons/menu-open.svg" alt="">
+                    <img src="assets/images/icons/menu-close.svg" alt="">
+                </div>
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.svg" alt="">
+                </a>
+                <p class="text-center text-pink text-bold d-md-block d-none">
+                    <span class="d-block text-deeppink">
+                        casebook on Comorbidities in RA:
+                    </span>
+                    A Patient-focused Multidisciplinary Perspective
+                </p>
+                <div class="language d-flex align-items-center">
+                    <a class="" href="index.html">
+                        <img class="me-2 d-none d-md-block" src="assets/images/icons/home.svg" alt="">
+                    </a>
+                    <a class="language-switcher" href="#">
+                    <span class="text-deeppink pt-0 pt-md-1 pt-lg-2">
+                        Fr
+                    </span>
+                </a>
+                </div>
+            </div>
+        </header>
+        <section class="wrapper paitent-content">
+            <div class="container d-flex flex-wrap justify-content-between">
+                <div class="left-sidebar text-center">
+                    <ul>
+                        <li>
+                            <a class="pink-button" href="case-studies.html">
+                                Case studies
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button knowledge-test" href="#">
+                                Knowledge tests
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button reference-button" href="#">
+                                References
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="events.html">
+                                Events
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="associations.html">
+                                Associations
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="about-section.html">
+                                About Section 2/3 credit
+                            </a>
+                        </li>
+                        <li class="d-none d-md-block">
+                            <a class="pink-button" target="_blank" href="https://www.surveymonkey.com/r/RAcasebook">
+                                Evaluation form
+                                <span class="d-block mb-1">
+                                    (for self-directed learning participants only)
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="middle-content">
+                    <div class="row mb-4 pb-1">
+                        <div class="col-lg-3 col-sm-6">
+                            <a href="allison.html" class="person text-center text-black">
+                                <img src="assets/images/1.png" alt="">
+                                <p class="text-bold">
+                                    Allison G.
+                                </p>
+                                <p class="text-deeppink text-12">
+                                    53-year-old female with RA and risk factors for MACE
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <a href="luciana.html" class="person text-center text-black">
+                                <img src="assets/images/2.png" alt="">
+                                <p class="text-bold">
+                                    Luciana P.
+                                </p>
+                                <p class="text-deeppink text-12">
+                                    56-year-old female with RA and metabolic syndrome
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <a href="robert.html" class="active person text-center text-black">
+                                <img src="assets/images/3.png" alt="">
+                                <p class="text-bold">
+                                    Robert L.
+                                </p>
+                                <p class="text-deeppink text-12">
+                                    56-year-old male with RA and history of malignancy
+                                </p>
+                            </a>
+                        </div>
+                        <div class="col-lg-3 col-sm-6">
+                            <a href="caroline.html" class="person text-center text-black">
+                                <img src="assets/images/4.png" alt="">
+                                <p class="text-bold">
+                                    Caroline P.
+                                </p>
+                                <p class="text-deeppink text-12">
+                                    60-year-old female with RA and fibromyalgia
+                                </p>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-item p-0 pb-4 profile-box">
+                        <div class="p-3 p-sm-4 pb-2">
+                            <div class="d-flex mb-4 align-items-center">
+                                <img src="assets/images/3.png" alt="">
+                                <div class="ms-2 ps-1">
+                                    <h3 class="common-title">
+                                        Robert L.
+                                    </h3>
+                                    <p class="text-14 text-deeppink">
+                                        56-year-old male with RA and history of malignancy
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="mb-2">
+                                Robert is a 56-year-old male who works as a farmer. He is 178 centimetres tall and weighs 90
+                                kilograms, giving him a BMI of 28.4 kg/m<sup>2</sup>. Robert’s job is strenuous and involves
+                                a lot of
+                                standing, walking, and working with heavy machinery. His diet primarily consists of red
+                                meat. He has had past resection of precancerous skin lesions. He had colon cancer three
+                                years ago which was fully resected (Dukes A). He is also taking an antidepressant. Robert is
+                                a heavy smoker, and has his cancer screenings up to date. He typically has three to four
+                                beers per day, and his BP is 140/90 mmHg. Robert’s father had lung cancer. Recently,
+                                Robert’s doctor spotted a nodule (0.8 cm) on a CXR. High-resolution computer tomography
+                                could not rule out malignancy. A bronchoscopy and PET scan are pending. Robert has had RA
+                                for two years and is being treated with leflunomide after failure of MTX.
+                            </p>
+                        </div>
+                        <img src="assets/images/home/7.jpg" alt="">
+                    </div>
+                    <div class="box-item diff-1 profile-box">
+                        <h3 class="common-title text-deeppink mb-3 pb-1">
+                            Current RA management & level of control/severity
+                        </h3>
+                        <div class="d-flex mb-4 align-items-center">
+                            <img src="assets/images/3.png" alt="">
+                            <div class="ms-2 ps-1">
+                                <h3 class="common-title">
+                                    Robert L.
+                                </h3>
+                                <p class="text-14 text-deeppink">
+                                    56-year-old male with RA and history of malignancy
+                                </p>
+                            </div>
+                        </div>
+                        <p class="text-italic mb-3 pb-lg-1">
+                            “I recently had a follow-up with my rheumatologist. She counted my tender and swollen joints and
+                            asked me how my arthritis affects me on a scale of 0 to 10, and we completed a few other forms
+                            and tests.”
+                        </p>
+                        <p class="mb-3">
+                            <strong>
+                                Her assessment was as follows:
+                            </strong>
+                        </p>
+                        <img src="assets/images/robert/1.jpg" alt="">
+                        <p class="mt-3 pt-1">
+                            Robert’s CDAI is 8, indicating low disease activity. His CRP is elevated.
+                        </p>
+                    </div>
+                    <div class="box-item diff-1 profile-box">
+                        <h3 class="common-title text-deeppink mb-3 pb-1">
+                            Treating RA in patients receiving chemotherapy
+                        </h3>
+                        <div class="d-flex mb-4 align-items-center">
+                            <img src="assets/images/3.png" alt="">
+                            <div class="ms-2 ps-1">
+                                <h3 class="common-title">
+                                    Robert L.
+                                </h3>
+                                <p class="text-14 text-deeppink">
+                                    56-year-old male with RA and history of malignancy
+                                </p>
+                            </div>
+                        </div>
+                        <p class="text-italic mb-3 pb-lg-1">
+                            I had an X-ray, and doctors noticed a nodule on my lung. So, I had to get a high-resolution
+                            scan, and my doctor said it was impossible to rule out malignancy. I had to repeat the CT after
+                            6 months, and the nodule grew so a PET scan was performed. The PET scan results were equivocal.
+                            I am booked for a bronchoscopy.
+                        </p>
+                        <div class="accordion-wrapper">
+                            <div class="accordion--items">
+                                <div class="accordion--item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__title__inner">
+                                            <h3>
+                                                If Robert requires chemotherapy his leflunomide should be stopped. If Robert
+                                                flares and is on chemotherapy, what type of treatment should his
+                                                rheumatologist prescribe?
+                                            </h3>
+                                            <img src="assets/images/icons/accordion-title.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="accordion__content" style="height: 0px;">
+                                        <div class="accordion__content__inner pt-3">
+                                            <p>
+                                                Usually, all DMARDs (cs, ts and bDMARDs) are held during chemotherapy,
+                                                unless the patient receives a checkpoint inhibitor and has an RA flare.
+                                                Rheumatologists can use csDMARDs and bDMARDs if the patient is not receiving
+                                                major immunosuppressive chemotherapy treatment. Immunosuppressant drugs can
+                                                increase the risk of infection in patients receiving chemotherapy and may
+                                                contribute to cytopenias and tranaminiitis.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-item diff-3">
+                        <h3 class="common-title text-deeppink mb-3">
+                            Malignancy risk, bDMARDs and tsDMARDs
+                        </h3>
+                        <p class="mb-2 pb-2">
+                            Is it safe to use bDMARDs and/or tsDMARDs in patients with or at high risk of malignancy? How
+                            should these treatment decisions be made?
+                        </p>
+                        <p class="mb-2 pb-2">
+                            Click to see Dr. Miller’s answer.
+                        </p>
+                        <div class="position-relative mb-2">
+                            <video controls src="assets/videos/demo.mp4"></video>
+                            <img src="assets/images/video/4.jpg" alt="">
+                            <a href="#"
+                               class="cursor-pointer position-absolute play-button  d-flex align-items-center justify-content-center">
+                                <img src="assets/images/icons/play-2.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="box-item diff-1">
+                        <h3 class="text-deeppink common-title mb-3">
+                            RA medications in patients with prior malignancy
+                        </h3>
+                        <p class="mb-3">
+                            What is the optimal treatment for patients with RA who have had cancer and undergone
+                            chemotherapy?
+                        </p>
+                        <p class="mb-3">
+                            Considering Robert’s personal history of atypia, is it safe to prescribe bDMARDs and/or
+                            tsDMARDs?
+                        </p>
+                        <ul class="radio-options mt-3 bg-lightgray">
+                            <li class="d-flex align-items-center right">
+                                <input type="radio" id="radio-1" name="question-1" class="me-1">
+                                <label for="radio-1">
+                                    Yes
+                                </label>
+                            </li>
+                            <li class="d-flex align-items-center">
+                                <input type="radio" id="radio-2" name="question-1" class="me-1">
+                                <label for="radio-2">
+                                    No
+                                </label>
+                            </li>
+
+                        </ul>
+                        <div class="text-center mt-4 submit-button-wrapper">
+                            <a href="#" class="pink-button">
+                                Submit
+                            </a>
+                        </div>
+                        <div class="answer mt-4 d-none">
+                            <p class="text-bold">
+                                Yes
+                            </p>
+                            <p>
+                                Studies evaluating patients with RA who previously had cancer are limited. However,
+                                rituximab, abatacept and likely TNFi appear to be safe in patients with past
+                                cancers.<sup>4,5,6</sup>
+                                Patients with RA with prior malignancy who receive rituximab were not shown to have an
+                                increased risk of future malignancy,<sup>5</sup> and patients prescribed tumour necrosis
+                                factor (TNF)
+                                inhibitors after cancer have been shown to have similar risks of new or recurrent cancer as
+                                those who are not taking these drugs.<sup>3</sup> Patients who take immunosuppressive
+                                corticosteroids
+                                such as prednisone have been shown to be at an increased risk of developing certain cancers,
+                                such as non-melanoma skin cancer. Tofacitinib was associated with more malignancies than
+                                TNFi in older patients with cardiovascular risk factors, especially smokers.<sup>7</sup>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="box-item diff-1">
+                        <h3 class="common-title text-deeppink mb-3">
+                            Other risk factors for malignancy in patients with RA
+                        </h3>
+                        <div class="accordion-wrapper">
+                            <div class="accordion--items">
+                                <div class="accordion--item">
+                                    <div class="accordion__title">
+                                        <div class="accordion__title__inner">
+                                            <h3>
+                                                What are some other risk factors/comorbidities related to malignancy in
+                                                patients with RA?
+                                            </h3>
+                                            <img src="assets/images/icons/accordion-title.svg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="accordion__content" style="height: 0px;">
+                                        <div class="accordion__content__inner pt-3">
+                                            <p class="mb-3">
+                                                Patients with RA have an increased risk of lung cancer. Smoking is the most
+                                                likely factor contributing to an increased risk of lung cancer, and smokers
+                                                also tend to have increased RA disease activity.<sup>8</sup> Chronic
+                                                inflammation may
+                                                also be associated with this increased risk.
+                                            </p>
+                                            <p>
+                                                Patients with RA are at an increased risk of non-melanoma skin cancer. MTX
+                                                and other advanced therapies seem to slightly increase the risk of skin
+                                                cancer.<sup>3</sup> Patients should be screened for skin cancer by a
+                                                history of
+                                                unhealing sores on skin and a visual look at the skin especially in sun
+                                                exposed areas and should avoid sun burns and use sunscreen and should be
+                                                advised to report any skin irregularities to their general practitioner.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="box-item diff-1 diff">
+                        <h3 class="common-title text-deeppink mb-3">
+                            Communication between specialists
+                        </h3>
+                        <p class="mb-2 pb-2">
+                            How can rheumatologists and oncologists best communicate their plans and thoughts to each other
+                            regarding the care of a patient with RA with or at risk of malignancy? What details should these
+                            communications include?
+                        </p>
+                        <p class="mb-3">
+                            Click to see Dr. Pope’s answer.
+                        </p>
+                        <div class="position-relative mb-3 pb-1">
+                            <video controls src="assets/videos/demo.mp4"></video>
+                            <img src="assets/images/video/1.jpg" alt="">
+                            <a href="#"
+                               class="cursor-pointer position-absolute play-button  d-flex align-items-center justify-content-center">
+                                <img src="assets/images/icons/play-2.svg" alt="">
+                            </a>
+                        </div>
+                        <p class="my-3">
+                            Click to see Dr. Miller’s answer.
+                        </p>
+                        <div class="position-relative mb-2">
+                            <video controls src="assets/videos/demo.mp4"></video>
+                            <img src="assets/images/video/4.jpg" alt="">
+                            <a href="#"
+                               class="cursor-pointer position-absolute play-button  d-flex align-items-center justify-content-center">
+                                <img src="assets/images/icons/play-2.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="box-item knowledge-test-box diff-1 three">
+                        <div class="text-center">
+                            <img src="assets/images/knowledge.svg" alt="">
+                            <h3 class="common-title text-deeppink my-4 pt-1">
+                                Patients with RA with or at risk of malignancy
+                            </h3>
+                            <div class="text-deeppink">
+                                <span class="current-number">
+                                    1
+                                </span>
+                                /
+                                <span class="total-number">
+                                    6
+                                </span>
+                            </div>
+                        </div>
+                        <div class="knowledge-test-questions">
+                            <div class="knowledge-test-question active-item">
+                                <p class="mt-3">
+                                    What type of RA treatment is safe for patients currently undergoing chemotherapy and
+                                    experiencing RA flares, not taking immunosuppressive chemotherapy?
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-3" name="q-1" class="me-1">
+                                        <label for="radio-3">
+                                            a. csDMARDs
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-4" name="q-1" class="me-1">
+                                        <label for="radio-4">
+                                            b. bDMARDs
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-5" name="q-1" class="me-1">
+                                        <label for="radio-5">
+                                            c. both a and b above
+                                        </label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    TNFi and tocilizumab use was associated with ___________ in some studies.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-6" name="q-2" class="me-1">
+                                        <label for="radio-6">
+                                            a. Cardiovascular disease
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-7" name="q-2" class="me-1">
+                                        <label for="radio-7">
+                                            b. Non-melanoma skin cancer
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-8" name="q-2" class="me-1">
+                                        <label for="radio-8">
+                                            c. Diabetes
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-9" name="q-2" class="me-1">
+                                        <label for="radio-9">
+                                            d. Osteoporosis
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-10" name="q-2" class="me-1">
+                                        <label for="radio-10">
+                                            e. both a and b above
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-11" name="q-2" class="me-1">
+                                        <label for="radio-11">
+                                            f. none of the above
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    Which of the following medication(s) have been shown to be safe for use in patients with
+                                    history of malignancy?
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-12" name="q-3" class="me-1">
+                                        <label for="radio-12">
+                                            a. Rituximab
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-13" name="q-3" class="me-1">
+                                        <label for="radio-13">
+
+                                            b.  Abatacept
+
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-14" name="q-3" class="me-1">
+                                        <label for="radio-14">
+                                            c.  TNFi
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-15" name="q-3" class="me-1">
+                                        <label for="radio-15">
+
+                                            d. all of the above
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-16" name="q-3" class="me-1">
+                                        <label for="radio-16">
+
+                                            e. only a and b above
+
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    The most likely factor contributing to lung cancer risk in RA patients is smoking.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-17" name="q-4" class="me-1">
+                                        <label for="radio-17">
+                                            True
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-18" name="q-4" class="me-1">
+                                        <label for="radio-18">
+                                            False
+                                        </label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    MTX and other advanced therapies have been shown to slightly increase the risk of skin
+                                    cancer.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-19" name="q-5" class="me-1">
+                                        <label for="radio-19">
+                                            True
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-20" name="q-5" class="me-1">
+                                        <label for="radio-20">
+                                            False
+                                        </label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <p class="mt-3">
+                                    All patients with RA should be screened for skin cancer.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-21" name="q-6" class="me-1">
+                                        <label for="radio-21">
+                                            True
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-22" name="q-6" class="me-1">
+                                        <label for="radio-22">
+                                            False
+                                        </label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="text-center mt-3 next-and-submit">
+                            <a href="#" class="pink-button">Next</a>
+                        </div>
+                    </div>
+                    <div id="references" class="box-item diff-1 references">
+                        <h3 class="common-title text-deeppink mb-3">
+                            References (RA and history of malignancy):
+                        </h3>
+                        <p class="mb-2">1. De Cock D, Hyrich K. Malignancy and rheumatoid arthritis: Epidemiology, risk
+                            factors and management. Best Practice &amp; Research Clinical Rheumatology 2018; 32(6):869-86.
+                        </p>
+                        <p class="mb-2">2. Montastruc F, Renoux C, Dell’Aniello S, <i>et al</i>. Abatacept initiation in rheumatoid
+                            arthritis and the risk of cancer: a population-based comparative cohort study. Rheumatology
+                            (Oxford) 2019; 58(4):683-91. </p>
+                        <p class="mb-2">3. Wadström H, Frisell T, Askling J. Anti-Rheumatic Therapy in Sweden (ARTIS) Study
+                            Group. Malignant Neoplasms in Patients With Rheumatoid Arthritis Treated With Tumor Necrosis
+                            Factor Inhibitors, Tocilizumab, Abatacept, or Rituximab in Clinical Practice: A Nationwide
+                            Cohort Study From Sweden. JAMA Intern Med 2017; 177(11):1605-12.</p>
+                        <p class="mb-2">4. Aaltonen KJ, Joensuu JT, Virkki L, <i>et al</i>. Rates of serious infections and
+                            malignancies among patients with rheumatoid arthritis receiving either tumor necrosis factor
+                            inhibitor or rituximab therapy. J Rheumatol 2015; 42(3):372-8.</p>
+                        <p class="mb-2">5. Silva-Fernández L, Lunt M, Kearsley-Fleet L, <i>et al</i>. British Society for
+                            Rheumatology Biologics Register (BSRBR) Control Centre Consortium. The incidence of cancer in
+                            patients with rheumatoid arthritis and a prior malignancy who receive TNF inhibitors or
+                            rituximab: results from the British Society for Rheumatology Biologics Register-Rheumatoid
+                            Arthritis. Rheumatology (Oxford) 2016; 55(11):2033-9. </p>
+                        <p class="mb-2">6. Xie W, Xiao S, Huang Y, <i>et al</i>. A meta-analysis of biologic therapies on risk of
+                            new or recurrent cancer in patients with rheumatoid arthritis and a prior malignancy.
+                            Rheumatology 2020; 59:930-9.</p>
+                        <p class="mb-2">7. Ytterberg SR, Bhatt DL, Mikuls TR, <i>et al</i>. Cardiovascular and Cancer Risk with
+                            Tofacitinib in Rheumatoid Arthritis. N Engl J Med 2022; 386:316-26.</p>
+                        <p class="mb-2">8. Manfredsdottir VF, Vikingsdottir T, Jonsson T, <i>et al</i>. The effects of tobacco
+                            smoking and rheumatoid factor seropositivity on disease activity and joint damage in early
+                            rheumatoid arthritis. Rheumatology (Oxford) 2006; 45(6):734-40. </p>
+
+                    </div>
+
+                </div>
+                <div class="right-sidebar">
+                    <div class="box-item">
+                        <div class="rs-content">
+                            <h3 class="text-deeppink border-bottom mb-3">
+                                Robert at a glance
+                            </h3>
+                            <div class="rs-list mb-3">
+                                <h4 class="text-bold">
+                                    Physical exam
+                                </h4>
+                                <ul class="bullet-point">
+                                    <li>Height 178 cm</li>
+                                    <li>Weight 90 kg (BMI 28.4 kg/m<sup>2</sup>)</li>
+                                    <li>BP 140/90 mmHg</li>
+
+                                </ul>
+                            </div>
+
+                            <div class="rs-list mb-3">
+                                <h4 class="text-bold">
+                                    Pertinent medical <br>
+                                    & family history
+                                </h4>
+                                <ul class="bullet-point">
+                                    <li>RA for 2 years, stable on leflunomide</li>
+                                    <li>Overweight, hypertension, depression</li>
+                                    <li>
+                                        Past resections of skin lesions with
+                                        atypia, fully resected colonic cancer
+                                    </li>
+                                    <li>
+                                        Cancer screening up to date: nodule on
+                                        X-ray and PET being monitored
+                                    </li>
+                                    <li>Father: lung cancer</li>
+
+                                </ul>
+                            </div>
+                            <div class="rs-list mb-3">
+                                <h4 class="text-bold">
+                                    Other pertinent history
+                                </h4>
+                                <ul class="bullet-point">
+                                    <li>Heavy smoker </li>
+                                    <li>Daily alcoholic consumption 3-4 beers</li>
+                                    <li>Diet is primarily red meat</li>
+
+                                </ul>
+                            </div>
+                            <div class="rs-list mb-3">
+                                <h4 class="text-bold">
+                                    Current medications
+                                </h4>
+                                <ul class="bullet-point">
+                                    <li>
+                                        Leflunomide
+                                    </li>
+                                    <li>
+                                        CCB
+                                    </li>
+                                    <li>
+                                        Antidepressant
+                                    </li>
+                                </ul>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p class="text-white">
+                    Copyright 2022. This learning program is supported by Pfizer Canada. The faculty had full editorial
+                    control over the contents of the program. The contents of the program are aligned with the approved
+                    Canadian product monographs. Opinions expressed are those of the presenters and not necessarily Pfizer
+                    Canada. This program is intended for healthcare professionals only.
+                </p>
+            </div>
+        </footer>
+
+
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/index.js"></script>
+    </body>
+
+</html>

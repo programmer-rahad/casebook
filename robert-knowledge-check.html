@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Casebook</title>
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        
+        <meta name="robots" content="noindex,nofollow">
+
+    </head>
+
+    <body class="hide">
+
+
+        <div class="modal" tabindex="-1" role="dialog">
+            <div class="modal-dialog modal-dialog-centered" id="PasswordModal" role="document">
+                <div class="modal-content">
+                    <div class="modal-body text-white">
+                        <div class="landing-modal">
+                            <p class="text-center">
+                                This learning program is intended for <br> healthcare professionals only. 
+                            </p>
+                            <form action="#" class="d-flex flex-column mt-3 pt-1">
+                                <label class="mb-1" for="password">Password</label>
+                                <input id="password" type="password" value="1234">
+                                <label class="mb-1 d-none" id="bad-password">Bad password!</label>
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <header class="bg-white">
+            <div class="container d-flex justify-content-between align-items-center">
+
+                <a href="index.html" class="logo">
+                    <img src="assets/images/logo.svg" alt="">
+                </a>
+                <p class="text-center text-pink text-bold d-md-block d-none">
+                    <span class="d-block text-deeppink">
+                        casebook on Comorbidities in RA:
+                    </span>
+                    A Patient-focused Multidisciplinary Perspective
+                </p>
+                <div class="language d-flex align-items-center">
+                    <a class="" href="index.html">
+                        <img class="me-2 d-none d-md-block" src="assets/images/icons/home.svg" alt="">
+                    </a>
+                    <a class="language-switcher" href="#">
+                    <span class="text-deeppink pt-0 pt-md-1 pt-lg-2">
+                        Fr
+                    </span>
+                </a>
+                </div>
+            </div>
+        </header>
+        <section class="wrapper landing-content mb-5 pb-5">
+            <div class="container d-flex flex-wrap justify-content-between">
+                <div class="left-sidebar text-center">
+                    <ul>
+                        <li>
+                            <a class="pink-button" href="case-studies.html">
+                                Case studies
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="knowledge-test.html">
+                                Knowledge tests
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button reference-button" href="references.html">
+                                References
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="events.html">
+                                Events
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="associations.html">
+                                Associations
+                            </a>
+                        </li>
+                        <li>
+                            <a class="pink-button" href="about-section.html">
+                                About Section 2/3 credit
+                            </a>
+                        </li>
+                        <li class="d-none d-md-block">
+                            <a class="pink-button" target="_blank" href="https://www.surveymonkey.com/r/RAcasebook">
+                                Evaluation form
+                                <span class="d-block mb-1">
+                                    (for self-directed learning participants only)
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="middle-content">
+                    <div class="box-item knowledge-test-box diff-1 show">
+                        <div class="text-center">
+                            <img src="assets/images/knowledge.svg" alt="">
+                            <h3 class="common-title text-deeppink my-4 pt-1">
+                                Patients with RA with or at risk of malignancy
+                            </h3>
+                            <div class="text-deeppink">
+                                <span class="current-number">
+                                    1
+                                </span>
+                                /
+                                <span class="total-number">
+                                    6
+                                </span>
+                            </div>
+                        </div>
+                        <div class="knowledge-test-questions">
+                            <div class="knowledge-test-question active-item">
+                                <p class="mt-3">
+                                    What type of RA treatment is safe for patients currently undergoing chemotherapy and
+                                    experiencing RA flares, not taking immunosuppressive chemotherapy?
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-3" name="q-1" class="me-1">
+                                        <label for="radio-3">
+                                            a. csDMARDs
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-4" name="q-1" class="me-1">
+                                        <label for="radio-4">
+                                            b. bDMARDs
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-5" name="q-1" class="me-1" checked="true">
+                                        <label for="radio-5">
+                                            c. both a and b above
+                                        </label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <div class="text-center mt-4">
+                                    <div class="text-deeppink">
+                                        <span class="current-number">
+                                            2
+                                        </span>
+                                        /
+                                        <span class="total-number">
+                                            6
+                                        </span>
+                                    </div>
+                                </div>
+                                <p class="mt-3">
+                                    TNFi and tocilizumab use was associated with ___________ in some studies.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-6" name="q-2" class="me-1">
+                                        <label for="radio-6">
+                                            a. Cardiovascular disease
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-7" name="q-2" class="me-1" checked="true">
+                                        <label for="radio-7">
+                                            b. Non-melanoma skin cancer
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-8" name="q-2" class="me-1">
+                                        <label for="radio-8">
+                                            c. Diabetes
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-9" name="q-2" class="me-1">
+                                        <label for="radio-9">
+                                            d. Osteoporosis
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-10" name="q-2" class="me-1">
+                                        <label for="radio-10">
+                                            e. both a and b above
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-11" name="q-2" class="me-1">
+                                        <label for="radio-11">
+                                            f. none of the above
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <div class="text-center mt-4">
+                                    <div class="text-deeppink">
+                                        <span class="current-number">
+                                            3
+                                        </span>
+                                        /
+                                        <span class="total-number">
+                                            6
+                                        </span>
+                                    </div>
+                                </div>
+                                <p class="mt-3">
+                                    Which of the following medication(s) have been shown to be safe for use in patients with
+                                    history of malignancy?
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-12" name="q-3" class="me-1">
+                                        <label for="radio-12">
+                                            a. Rituximab
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-13" name="q-3" class="me-1">
+                                        <label for="radio-13">
+
+                                            b.  Abatacept
+
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-14" name="q-3" class="me-1">
+                                        <label for="radio-14">
+                                            c.  TNFi
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-15" name="q-3" class="me-1" checked="true">
+                                        <label for="radio-15">
+
+                                            d. all of the above
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-16" name="q-3" class="me-1">
+                                        <label for="radio-16">
+
+                                            e. only a and b above
+
+                                        </label>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <div class="text-center mt-4">
+                                    <div class="text-deeppink">
+                                        <span class="current-number">
+                                            4
+                                        </span>
+                                        /
+                                        <span class="total-number">
+                                            6
+                                        </span>
+                                    </div>
+                                </div>
+                                <p class="mt-3">
+                                    The most likely factor contributing to lung cancer risk in RA patients is smoking.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-17" name="q-4" class="me-1" checked="true">
+                                        <label for="radio-17">
+                                            True
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-18" name="q-4" class="me-1">
+                                        <label for="radio-18">
+                                            False
+                                        </label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <div class="text-center mt-4">
+                                    <div class="text-deeppink">
+                                        <span class="current-number">
+                                            5
+                                        </span>
+                                        /
+                                        <span class="total-number">
+                                            6
+                                        </span>
+                                    </div>
+                                </div>
+                                <p class="mt-3">
+                                    MTX and other advanced therapies have been shown to slightly increase the risk of skin
+                                    cancer.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-19" name="q-5" class="me-1" checked="true">
+                                        <label for="radio-19">
+                                            True
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-20" name="q-5" class="me-1">
+                                        <label for="radio-20">
+                                            False
+                                        </label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                            <div class="knowledge-test-question">
+                                <div class="text-center mt-4">
+                                    <div class="text-deeppink">
+                                        <span class="current-number">
+                                            6
+                                        </span>
+                                        /
+                                        <span class="total-number">
+                                            6
+                                        </span>
+                                    </div>
+                                </div>
+                                <p class="mt-3">
+                                    All patients with RA should be screened for skin cancer.
+                                </p>
+                                <ul class="radio-options mt-3 bg-lightgray">
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-21" name="q-6" class="me-1" checked="true">
+                                        <label for="radio-21">
+                                            True
+                                        </label>
+                                    </li>
+                                    <li class="d-flex align-items-center">
+                                        <input type="radio" id="radio-22" name="q-6" class="me-1">
+                                        <label for="radio-22">
+                                            False
+                                        </label>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-sidebar">
+
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="container">
+                <p class="text-white">
+                    Copyright 2022. This learning program is supported by Pfizer Canada. The faculty had full editorial
+                    control over the contents of the program. The contents of the program are aligned with the approved
+                    Canadian product monographs. Opinions expressed are those of the presenters and not necessarily Pfizer
+                    Canada. This program is intended for healthcare professionals only.
+                </p>
+            </div>
+        </footer>
+
+
+
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/index.js"></script>
+    </body>
+
+</html>
